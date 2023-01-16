@@ -19,7 +19,7 @@ function oneEdit(stringOne: string, stringTwo: string){
     const lengthOne = stringOne.length;
     const lengthTwo = stringTwo.length;
     if(Math.abs(lengthOne-lengthTwo) > 1 ) return false;
-    for(let i = 0; i<stringOne.length ; i++){
+    for(let i = 0; i< Math.min(stringOne.length,stringTwo.length) ; i++){
         if(stringOne[i] !== stringTwo[i]){
             if(lengthOne === lengthTwo){
                 return stringOne.slice(i+1,lengthOne) === stringTwo.slice(i+1,lengthTwo);
