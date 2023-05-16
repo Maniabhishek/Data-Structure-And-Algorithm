@@ -11,7 +11,6 @@ class BST {
 }
 
 export function findClosestValueInBst(tree: BST, target: number) {
-  // Write your code here.
   return findClosestValueInBstHelper(tree, target, tree.value);
 }
 
