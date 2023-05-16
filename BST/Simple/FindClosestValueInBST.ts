@@ -15,7 +15,7 @@ export function findClosestValueInBst(tree: BST, target: number) {
   return findClosestValueInBstHelper(tree, target, tree.value);
 }
 
-function findClosestValueInBstHelper(tree: BST|null, target: number, closest: number): number {
+function findClosestValueInBstHelper(tree: BST | null, target: number, closest: number): number {
   if(tree == null) return closest;
   if(Math.abs(target-tree.value) < Math.abs(target-closest)) closest = tree.value
 
