@@ -81,7 +81,6 @@ export class BST {
         parent.right = this.right !== null ? this.right : this.left;
       }
     }
-    // Do not edit the return statement of this method.
     return this;
   }
 
