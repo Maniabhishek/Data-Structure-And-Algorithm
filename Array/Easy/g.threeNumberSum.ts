@@ -1,3 +1,5 @@
+// O(n2) and O(n)
+
 type Triplet = [number, number, number];
 
 export function threeNumberSum(array: number[], targetSum: number): Triplet[] {
