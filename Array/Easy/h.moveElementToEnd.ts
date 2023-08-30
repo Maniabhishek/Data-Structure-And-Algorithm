@@ -8,7 +8,7 @@
   array) and doesn't need to maintain the order of the other integers.
 
 sampleInput = [2, 1, 2, 2, 2, 3, 4, 2]
-sampleOutput = [1, 3, 4 2, 2, 2, 2, 2]
+sampleOutput = [1, 3, 4, 2, 2, 2, 2, 2]
 */
 export function moveElementToEnd(array: number[], toMove: number) {
   // Write your code here.
