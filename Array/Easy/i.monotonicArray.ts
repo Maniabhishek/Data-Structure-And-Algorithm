@@ -26,8 +26,8 @@ function isMonotonic(array: number[]) {
   let isNonDecreasing = true;
 
   for(let i = 1; i < array.length; i++ ){
-    if((array[1] - array[0]) > 0) isNonIncreasing = false
-    if((array[1] - array[0]) < 0) isNonDecreasing = false
+    if(array[i] > array[i-1]) isNonIncreasing = false
+    if(array[i] < array[i-1]) isNonDecreasing = false
   }
   return isNonIncreasing || isNonDecreasing
 }
