@@ -18,3 +18,16 @@ export function isMonotonic(array: number[]) {
   }
   return true;
 }
+
+
+// another way
+function isMonotonic(array: number[]) {
+  let isNonIncreasing = true;
+  let isNonDecreasing = true;
+
+  for(let i = 1; i < array.length; i++ ){
+    if((array[1] - array[0]) > 0) isNonIncreasing = false
+    if((array[1] - array[0]) < 0) isNonDecreasing = false
+  }
+  return isNonIncreasing || isNonDecreasing
+}
