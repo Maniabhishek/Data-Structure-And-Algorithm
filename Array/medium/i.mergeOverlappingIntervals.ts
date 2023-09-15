@@ -1,3 +1,8 @@
+/*
+ Sample Input = [[1, 2], [3, 5], [4, 7], [6, 8], [9, 10]]
+ Sample Output = [[1, 2], [3, 8], [9, 10]]
+*/
+
 export function mergeOverlappingIntervals(array: number[][]) {
   // Write your code here.
   const sortedArray = array.sort((a,b)=>a[0]-b[0])
