@@ -45,3 +45,26 @@ export function commonCharacters(strings: string[]) {
   }
   return result;
 }
+// ts O(n*m) n is the length of the array and m is the length of the longest string, space O(c) c is number of unique character across all string
+export function commonCharacters(strings: string[]) {
+  // Write your code here.
+
+  const chCounts: {[character: string]: number} = {}
+  for(const string of strings){
+    const uniqueCharacters = new Set(string)
+    for(const ch of uniqueCharacters){
+      if(!(ch in chCounts)){
+        chCounts[ch] = 0
+      }
+      chCounts[ch]++
+    }
+  }
+const finalCharacter: string[] = []
+  for(const [key, val] of Object.entries(chCounts)){
+    if(val === strings.length){
+      finalCharacter.push(key)
+    }
+  }
+  return finalCharacter;
+}
+
