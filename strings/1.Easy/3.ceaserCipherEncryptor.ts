@@ -15,15 +15,15 @@
 function ceaserCipherEncryptor(str: string, key: number){
   const newCharArr: string[] = []
   const newKey: number = key%26
-  for(const ch of string){
+  for(const ch of str){
     const newCh = getCharacterAfterShift(ch,newKey)
     newCharArr.push(newCh)
   }
   return newCharArr.join('')
 }
 
-function getCharacterAfterShift(char: string, key: number)string{
+function getCharacterAfterShift(char: string, key: number){
   const ascii = char.charCodeAt(0) + key
-  return ascii <= 122 ? string.fromCharCode(ascii) : string.fromCharCode(96 + ascii % 122)
+  return ascii <= 122 ? String.fromCharCode(ascii) : String.fromCharCode(96 + ascii % 122)
 }
   
