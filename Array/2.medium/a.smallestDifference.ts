@@ -1,6 +1,6 @@
 /*
 two arrays will be passed , we need to find the smallest difference between two numbers,
-one from first array and another from seciond array , returned array will have 1st element from 1st array and 2nd from 2nd array 
+one from first array and another from second array , returned array will have 1st element from 1st array and 2nd from 2nd array 
 */
 
 
