@@ -23,3 +23,8 @@ Interview coding questions solved
 
 ## Strings
 > - Common Characters
+> - Semordnilap
+> - Ceaser Cipher Encryptor
+> - Run length Encoding
+> - One Edit
+> - First Non Repeating Character
