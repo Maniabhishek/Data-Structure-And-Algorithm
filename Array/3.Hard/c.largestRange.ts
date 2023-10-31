@@ -1,5 +1,4 @@
 /*
-time coplexity: O(n) space complexity: O(n)
 Largest length:
   
   Write a function that takes in an array of integers and returns an array of
@@ -18,6 +17,7 @@ represent the range of {2, 3, 4, 5, 6}, which
   array =  = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
   sample output:
   [0, 7]
+time coplexity: O(n) space complexity: O(n)
 */
 
 export function largestRange(array: number[]):[number, number]{
