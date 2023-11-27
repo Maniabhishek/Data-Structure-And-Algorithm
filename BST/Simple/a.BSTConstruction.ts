@@ -1,3 +1,5 @@
+// binary search tree construction
+
 export class BST {
   value: number;
   left: BST | null;
