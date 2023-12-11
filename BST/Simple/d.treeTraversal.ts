@@ -10,6 +10,7 @@ class Bst {
   }
 }
 
+//left -> root -> right
 export function InOrderTraversal(tree: Bst| null, array: number[]): number[]{
     if(tree !== null){
         InOrderTraversal(tree.left, array)
@@ -19,6 +20,7 @@ export function InOrderTraversal(tree: Bst| null, array: number[]): number[]{
     return array
 }
 
+// root -> left -> right
 export function PreOrderTraversal(tree: Bst, array: number[]):number[] {
     if(tree !== null){
         array.push(tree.value)
@@ -28,6 +30,7 @@ export function PreOrderTraversal(tree: Bst, array: number[]):number[] {
     return array
 }
 
+// left -> right -> root
 export function PostOrderTraversal(tree: Bst, array: number[]): number[]{
     if(tree !==null){
         PostOrderTraversal(tree.left, array)
