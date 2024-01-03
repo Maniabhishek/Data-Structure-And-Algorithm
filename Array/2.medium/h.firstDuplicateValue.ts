@@ -28,7 +28,6 @@ function firstDuplicateValue(array: number[]) {
 export function firstDuplicateValue(array: number[]) {
   // Write your code here.
   const seen = new Set();
-  let res = -1
   for(const num of array){
     if(seen.has(num)) return num
     seen.add(num)
