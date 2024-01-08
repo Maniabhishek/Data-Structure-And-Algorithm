@@ -39,4 +39,4 @@ Interview coding questions solved
 2. Find closest value in BST
 
 ## Dynamic Programming
-1. [Max Sum Increasing Subsequence](!https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/DynamicProgramming/3.Difficult/1.maxSumIncresingSubSequence.ts)
+1. [Max Sum Increasing Subsequence](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/DynamicProgramming/3.Difficult/1.maxSumIncresingSubSequence.ts)
