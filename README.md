@@ -40,3 +40,11 @@ Interview coding questions solved
 
 ## Dynamic Programming
 1. [Max Sum Increasing Subsequence](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/DynamicProgramming/3.Difficult/1.maxSumIncresingSubSequence.ts)
+
+## Recursion 
+1. [intro](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/Recursion/1.intro.md)
+2. [simpleRecurstionProbelm](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/Recursion/2.simpleRecurstionProbelm.md)
+3. [sumOfNumbers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/Recursion/3.sumOfNnumbers.md)
+4. [Reverese Array](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/Recursion/4.ReverseArray.md)
+5. [Pallindrome](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/Recursion/5.Pallindrome.md)
+6. [Fibonacci](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/Recursion/6.fibonacci.md)
