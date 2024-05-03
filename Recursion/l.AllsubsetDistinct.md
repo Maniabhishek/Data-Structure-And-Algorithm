@@ -1,6 +1,8 @@
 > - find all the distinct subset from the given array
-![WhatsApp Image 2024-05-03 at 5 17 20 PM](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/ffa064e1-7eaa-4285-9f23-72aef5d29261)
-![WhatsApp Image 2024-05-03 at 5 17 21 PM](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/e663883c-569f-4594-8059-1d76950441b2)
+
+<img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/ffa064e1-7eaa-4285-9f23-72aef5d29261" width="500" height="500">
+<img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/e663883c-569f-4594-8059-1d76950441b2" width="500" height="500">
+
 ```ts
 
 export function subsetDistinct(arr: number[], idx: number, res: number[][], ds: number[]){
