@@ -23,6 +23,27 @@ function getAllSubsequnceTargetSum(arr: number[], idx: number, target: number, c
 }
 ```
 
+or 
+
+```js
+function findAllSubsequenceTargetTosum(arr, idx, target, ds, res){
+    if(idx === arr.length){
+        if(target === 0) {
+            res.push([...ds])
+        }
+        return
+    }
+    
+    ds.push(arr[idx])
+    target -= arr[idx]
+    findAllSubsequenceTargetTosum(arr, idx + 1, target, ds, res)
+    ds.pop(arr[idx])
+    target += arr[idx]
+    findAllSubsequenceTargetTosum(arr, idx + 1, target, ds, res)
+}
+
+```
+
 > -  the above code gives us all the sub sequences that can occur ,here also we will use the pick and not pick trick, so the trick is alway keep the sum and in base condition if matches , then check if sum is equal to target then we can keep that sequences
 
 ```js
