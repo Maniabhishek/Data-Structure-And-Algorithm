@@ -1,4 +1,4 @@
-> -  this os n queen problem , where n queen should should be placed in n*n chess board , and each queen should not kill each other 
+> -  this is n queen problem , where n queen should should be placed in n*n chess board , and each queen should not kill each other 
 
 <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/f5c338d0-f0ce-4511-ade3-2e53fcbc1ac8" width="400" height="400"/>
 
