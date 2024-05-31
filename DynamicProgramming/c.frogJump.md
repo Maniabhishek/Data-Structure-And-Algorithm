@@ -69,3 +69,35 @@ export function CallFrogJumpMemoize(){
     console.log(res)
 }
 ```
+
+// lets write the above program using tabulation
+```ts
+function FrogJumpTabulation(n: number, energy: number[], dp: number[]){
+    dp[0] = 0
+
+    for(let i = 1; i <= n; i++ ){
+        let left = dp[i-1] + Math.abs(energy[i]-energy[i-1])
+        let right = Infinity
+        if(i > 1) {
+            right = dp[i-2] + Math.abs(energy[i] - energy[i-2])
+        }
+
+        dp[i] = Math.min(left, right)
+    }
+
+    console.log(dp)
+    return dp[n]
+}
+
+export function CallFrogJumpTabulation(){
+    // frog is at 1st stair and wants to reach at 5th stair
+    let n = 6
+
+    const energy = [30, 10, 60, 10, 60, 50]
+    const dp: number[] = new Array(6).fill(-1)
+    console.log(dp)
+    // passing n - 1 , because i am considering index , so assume frog is jumping from 0 to 5 which is equivalent to 1 to 6
+    const res: number = FrogJumpTabulation(n-1, energy, dp)
+    console.log(res)
+}
+```
