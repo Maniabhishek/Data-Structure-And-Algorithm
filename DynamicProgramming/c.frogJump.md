@@ -101,3 +101,4 @@ export function CallFrogJumpTabulation(){
     console.log(res)
 }
 ```
+> - now with tabulation form we have certainly reduced the time complexity as stack space is reduced
