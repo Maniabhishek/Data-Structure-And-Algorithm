@@ -102,3 +102,40 @@ export function CallFrogJumpTabulation(){
 }
 ```
 > - now with tabulation form we have certainly reduced the time complexity as stack space is reduced
+> - lets try to reduce the space complexity
+> - whenever you see if we are trying to find the i - 1 and i - 2 values then we can always improve the space complexity
+> - if we see we have dp[0] = 0 , for any other values we need i-1 and i-2 values , thus prev2 and prev , where prev will keep becoming prev2 and current num will keep becoming prev
+> - and using this techinique qe can reduce the space complexity
+
+
+```ts
+function FrogJumpSpaceOptimized(n: number, energy: number[]){
+    let prev = 0
+    let prev2 = 0
+
+    for(let i = 1; i <=n; i++){
+        let left = prev + Math.abs(energy[i] - energy[i-1])
+        let right = Infinity
+        if(i > 1){
+            right = prev2 + Math.abs(energy[i] - energy[i-2])
+        }
+
+        let curi = Math.min(left, right)
+        prev2 = prev
+        prev = curi
+    }
+
+    return prev
+}
+
+export function CallFrogJumpSpaceOptimized(){
+    // frog is at 1st stair and wants to reach at 5th stair
+    let n = 6
+
+    const energy = [30, 10, 60, 10, 60, 50]
+    // passing n - 1 , because i am considering index , so assume frog is jumping from 0 to 5 which is equivalent to 1 to 6
+
+    const res = FrogJumpSpaceOptimized(n-1, energy)
+    console.log(res)
+}
+```
