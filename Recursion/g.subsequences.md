@@ -1,3 +1,5 @@
+ <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/688fb307-b7f4-416a-b7f2-c3b1e61b3c69" width=400 height=400>
+
 ```js
 export function Subsequences(arr: number[]){
     let result: number[][] = []
