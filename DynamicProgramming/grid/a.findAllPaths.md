@@ -96,3 +96,39 @@ export function CallGridUniquePathsTabulation(){
 }
 
 ```
+
+- using tabulation bottom up starting from 0  - optimize the code 
+```ts
+function GridUniquePathTabulationSpaceOptimization(row: number,col: number){
+    
+    let prev = new Array(col + 1).fill(0)
+
+    for(let i = 0; i <= row ; i++){
+        const temp: number[] = new Array(col + 1).fill(0)
+        for(let j=0; j<=col; j++){
+            if(i===0 && j===0) {
+                temp[j] = 1
+            }
+            else {
+                let up = 0
+                let left = 0
+                up = prev[j]
+                if(j>0) left = temp[j-1]
+    
+                temp[j] = up + left
+            }
+        }
+        prev = temp
+    }
+
+    return prev[col]
+}
+
+export function CallGridUniquePathsTabulationSpaceOpt(){
+    const m = 3
+    const n = 3
+    const res = GridUniquePathTabulationSpaceOptimization(m-1, n-1)
+    console.log(res)
+}
+
+```
