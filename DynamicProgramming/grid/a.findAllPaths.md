@@ -97,7 +97,7 @@ export function CallGridUniquePathsTabulation(){
 
 ```
 
-- using tabulation bottom up starting from 0  - optimize the code 
+- now if you see the above code we are using 2D matrix as dp , in code we can see all we need is previous row element to compute the current hence we can reduce the size of dp array as coded below
 ```ts
 function GridUniquePathTabulationSpaceOptimization(row: number,col: number){
     
