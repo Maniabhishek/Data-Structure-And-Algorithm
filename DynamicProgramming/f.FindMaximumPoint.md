@@ -2,7 +2,8 @@
 > You are given a 2D array of size N*3 points with the points corresponding to each day and activity. Your task is to calculate the maximum number of merit points Ninja can earn.
 
 <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/ee24b6c1-0e13-498e-ae90-72f055b33320" width=400 height=400>
-<img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/b4799b4f-33c9-4e0d-94cd-921982bdaefc width=400 height=400>
+<img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/b4799b4f-33c9-4e0d-94cd-921982bdaefc" width=400 height=400>
+
 
 
 
