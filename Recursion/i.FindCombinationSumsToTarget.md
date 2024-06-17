@@ -25,3 +25,26 @@ function findCombination(arr: number[], target: number, index: number, ds: numbe
 }
 
 ```
+
+
+> - if we want to find out only unique
+```ts
+export function findCombinationWithDistinctNumber(arr: number[], target: number, index: number, ds: number[], result: Set<number[]>){
+    if(index === arr.length){
+        if(target === 0){
+            result.add([...ds])
+        }
+        return
+    }
+
+    if(arr[index] <= target) {
+        ds.push(arr[index])
+        findCombinationWithDistinctNumber(arr, target - arr[index], index + 1, ds, result)
+        ds.pop()
+    }
+    findCombinationWithDistinctNumber(arr, target, index + 1, ds, result)
+}
+```
+
+- but above solution has very bad time compexity 2^t (as each index has two option pick or dont pick) 2^t * k * log(n) (k for length of combination and putting that into another ds and this time in set so it will take k log(m) assuming k length of the combination and m size of the set)
+- so improve the above algorithm we will check the next algo
