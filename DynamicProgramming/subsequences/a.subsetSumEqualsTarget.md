@@ -3,6 +3,8 @@
 
 for eg., [1,2,3,4] k=4, ans true as [1,3] sums to 4
 
+![image](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/15c37f78-8164-4753-ba46-6a29382520f7)
+
 ![Uploading image.jpeg…]()
 
 
