@@ -5,7 +5,7 @@ for eg., [1,2,3,4] k=4, ans true as [1,3] sums to 4
 
 <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/15c37f78-8164-4753-ba46-6a29382520f7" width="400" height="400" >
 
-![image](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/95f9f509-c88d-405e-8c27-7b824e134e86)
+<img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/95f9f509-c88d-405e-8c27-7b824e134e86" width="400" height="400" >
 
 
 
