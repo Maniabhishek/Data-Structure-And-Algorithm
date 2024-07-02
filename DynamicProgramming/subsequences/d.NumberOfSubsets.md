@@ -26,6 +26,7 @@ export function CallNumberOfSubsets(){
 
 ```
 
+- using memoization
 ```ts
 function NumberOfSubsetsMemoization(arr: number[], target: number, idx: number, dp: number[][]){
     if(target === 0) return 1
@@ -51,6 +52,7 @@ export function CallNumberOfSubsetsMemoization(){
 }
 ```
 
+- using tabulation
 ```ts
 function NumberOfSubsetsTabulation(arr: number[], target: number){
     const dp: number[][] = new Array(arr.length).fill(null).map(()=> new Array(target + 1).fill(0))
