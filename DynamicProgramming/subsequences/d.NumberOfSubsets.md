@@ -2,7 +2,7 @@
 
 ### explanation
 - since we need to find the total number of ways , or total number of susets that equals target number , this problem is similar to the previous one
-
+- TS of below solution 2**n, SC: O(N)
 ```ts
 function NumberOfSubsets(arr: number[], target: number, idx: number){
     if(target === 0) return 1
