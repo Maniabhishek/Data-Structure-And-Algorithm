@@ -86,3 +86,50 @@ export function CallNumberOfSubsetsTabulation(){
 }
 
 ```
+
+-  we can consider once scenario when array contains 0 , in this situation our code will not give exact count
+-  so we can either go with code which will creates all the subsets , and then count below is the code
+```ts
+function NumberOfSubsets2(arr: number[], target: number, idx: number){
+    if(idx === arr.length){
+        if(target === 0){
+            return 1
+        } else {
+            return 0
+        }
+    }
+
+    target -= arr[idx]
+    let l = NumberOfSubsets2(arr, target, idx + 1)
+
+    target += arr[idx]
+    let r = NumberOfSubsets2(arr, target, idx + 1)
+
+    return l + r
+}
+
+export function CallNumberOfSubsets(){
+    const arr: number[] = [0,0,1]
+    const total = NumberOfSubsets2(arr, 1, 0)
+    console.log(total)
+}
+```
+
+-  or we can just modify the code
+```ts
+function NumberOfSubsets(arr: number[], target: number, idx: number){
+    if(idx === 0) {
+        if(target === 0 && arr[0] === 0) return 2
+        if(target === 0 || arr[0] === target) return 1
+        return 0
+    }
+
+    const not_take = NumberOfSubsets(arr, target, idx-1)
+    let take = 0
+    if(arr[idx] <= target){
+        take = NumberOfSubsets(arr, target- arr[idx], idx-1)
+    }
+
+    return not_take + take 
+}
+```
