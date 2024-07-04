@@ -15,6 +15,7 @@
 ```ts
 const mod = 1e9 + 7
 
+// this is only going to work when arr doesn't contain any 0's
 function CountPartitions(arr: number[], diff: number, idx: number, sum: number, total: number){
     if(sum === (total+diff)/2) {
         return 1
