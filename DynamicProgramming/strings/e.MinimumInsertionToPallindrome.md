@@ -1,5 +1,6 @@
 > - Minimum insertion to make a string pallindrome , find the number of insertion
 
+-  below code can be improved using memoization, tabulation as done in previous problems
 ```ts
 // this function will give me the longest common subsequence
 function MinimumStringToPallindrome(s1: string, s2: string, i: number, j: number){
