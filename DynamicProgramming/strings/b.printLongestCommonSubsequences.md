@@ -1,7 +1,6 @@
 > - Print the longest common subsequence
 
 <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/972511e2-c8f5-4083-9dd1-b361882a3fb9" width=400 height=400/>
-https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/972511e2-c8f5-4083-9dd1-b361882a3fb9
 
 ```ts
 function PrintLongestCommonSubsequencesTabulation(s1:string, s2: string){
