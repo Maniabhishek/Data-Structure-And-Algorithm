@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/5242ef3a-5452-40f8-8b1c-cdd5b2e64ae6)
+
+![image](https://github.com/user-attachments/assets/d12ad855-ab33-4303-83c7-355116c82511)
+
+
 ```ts
 
 function Number_LIS(arr: number[]){
