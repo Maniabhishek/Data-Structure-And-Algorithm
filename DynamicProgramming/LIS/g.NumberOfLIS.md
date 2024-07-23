@@ -26,10 +26,6 @@ function Number_LIS(arr: number[]){
         }
     }
 
-    console.log(maxIdx)
-    console.log(count)
-    console.log("max",max)
-    console.log(dp)
     console.log(count[maxIdx])
 }
 
