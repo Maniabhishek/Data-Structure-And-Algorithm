@@ -1,0 +1,36 @@
+```ts
+
+function Number_LIS(arr: number[]){
+    const dp:number[] = new Array(arr.length).fill(1)
+    const count: number[] = new Array(arr.length).fill(1)
+
+    let max = 0
+    let maxIdx = 0
+    for(let i=1; i<arr.length; i++){
+        for(let j = 0; j<i; j++){
+            if(arr[j]<arr[i] && (1+dp[j] > dp[i])){
+                dp[i] = 1+dp[j]
+            }else if(arr[j]<arr[i] && (1+dp[j] === dp[i])){
+                count[i] += count[j]
+            }
+        }
+
+        if(dp[i] > max) {
+            max = dp[i]
+            maxIdx = i
+        }
+    }
+
+    console.log(maxIdx)
+    console.log(count)
+    console.log("max",max)
+    console.log(dp)
+    console.log(count[maxIdx])
+}
+
+export function CallNumber_LIS(){
+    const arr: number[] = [1,5,4,3,2,6,7,10,8,9]
+    Number_LIS(arr)
+}
+
+```
