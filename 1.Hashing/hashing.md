@@ -12,6 +12,7 @@ function f(n, arr){
     hash[arr[i]] += 1 
   }
 
+  // this below array will give us result in constant time
   console.log(hash[n])
 }
 ```
