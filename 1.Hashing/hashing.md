@@ -30,5 +30,5 @@ function f(n, arr){
 > - how does hashing works 1) division method 2) folding method 3) mid square method
 >> - division method basically works by getting modulo lets say we have an array 0,1,2,2,3,4,4,19 and we want store the count , then get the modulo of each for 0%10 is 0 then store 0 at key 0 similarly 1%10 is 1 store 1 at 1, and goes on same for 19 19%10 it will be stored at 9
 >> - but there can be situation of collision lets we have 39 as well , then 39 will also sit at 9th index where 19 was , now this is a problem but this will be solved using linked list
->> - and will be stored in sorted order
+>> - and will be stored in sorted order and this can be done in various way using binary search and many other ways
 >> - hence in such worst cases it can be O(N)
