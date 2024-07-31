@@ -1,5 +1,6 @@
 - find all the permutation of a string or a number
 - for eg., we can have an array [1,2,3] we can have total 6 permuation for this array
+- all the permutation can start from each of the element , it can start from 1.. , 2.. 3.. now let's say if it starts from 1 then next element can 2 or 3 let's try all the possible way
 
 ```ts
 function permutation(arr: number[], ds: number[], res: number[][], isTaken: boolean[]){
