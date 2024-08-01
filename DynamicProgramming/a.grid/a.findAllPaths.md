@@ -1,4 +1,4 @@
-> - In a matrix M*N you need you need to find total number of unique way to reach from 0,0 to M-1 M-1, from top left cell to bottom right cell
+> - In a matrix M*N you need you need to find total number of unique way to reach from 0,0 to M-1 N-1, from top left cell to bottom right cell
 > - you are only allowed to move right and down at each step
 
 
