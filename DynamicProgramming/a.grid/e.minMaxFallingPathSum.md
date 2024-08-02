@@ -1,5 +1,6 @@
 > - when we have variable starting and ending point
 > - from 1st row from any column , we need to reach final row in any column
+> - allowed movement up, left diagonal , right diagonal
 
 - if we fix ending or starting row let's if we start from final row 0 column then we always have to reach to 0th column , so we need to find the same from each column
 
