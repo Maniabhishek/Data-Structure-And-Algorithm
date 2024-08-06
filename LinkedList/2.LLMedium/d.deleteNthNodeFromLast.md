@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/9e667bba-aed8-48d9-9e24-e96bf7abc653)
+
+
+
+
 ```ts
 import { convertA2LL, LNode, traverse } from "./6.oddEvenLLCombine";
 
