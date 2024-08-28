@@ -1,3 +1,5 @@
+- traverse through the LL and and at any node value which equals to the given element to be deleted then you can get prevNode data and nextNode data from current Node, simply point the prevNode next to nextNode and nextNode back to the prevNode
+
 ```ts
 import { convertA2DLL, DLNode, PrintDLL } from "./3.dll";
 
