@@ -22,7 +22,6 @@ function rotateLL(head: LNode, n: number){
     let rotateTimes = n%length
     if(rotateTimes == 0) return head
 
-    let temp = head 
     let kthNode = getKthNode(head, length - rotateTimes)
 
     let newHead = kthNode.next
