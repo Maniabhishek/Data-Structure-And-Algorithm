@@ -1,3 +1,6 @@
+- take two pointer pointing to head 1 and head 2 , temp pointing to a dummy node, traverse until temp1 or temp2 gets null, if temp1.data < temp2,.data then simply point temp.next to temp1 or vice versa as shown below in the code
+
+
 ```ts
 import { convertA2LL, LNode, traverse } from "./6.oddEvenLLCombine";
 
