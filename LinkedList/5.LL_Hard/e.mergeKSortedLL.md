@@ -52,3 +52,5 @@ export function Call_mergeKSortedLists(){
 }
 
 ```
+
+- optimum approach will be using min heap (https://www.geeksforgeeks.org/merge-k-sorted-linked-lists-set-2-using-min-heap)
