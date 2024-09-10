@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/375afee7-5e1a-4fbe-90a1-fe8992de847b)
+![Uploading image.jpeg…]()
+
+
 ```ts
 class LNodeWithChild {
     data: number;
