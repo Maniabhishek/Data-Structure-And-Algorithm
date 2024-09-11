@@ -1,5 +1,6 @@
 > - with n rows matrix, and ith row has i+1 elements , for example 0th row has 1 element , row 1 has 2 element, row 2 has 3 element
 > - find the min path sum from 0,0 to last row any column , this mean fixed starting point and variable ending point
+> - you are allwoed to move down and diagonal
 
 - how to solve
 - if we start from 0,0 and if we end up in the last row, so the base condition can be when i === n-1
