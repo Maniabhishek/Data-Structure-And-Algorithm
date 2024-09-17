@@ -55,8 +55,12 @@ export function Call_checkIfSorted(){
 // better solution will by using two pointer 
 function removeDuplicates(arr: number[]){
 
+    // initialize first pointer to 0
     let i = 0;
+
+    // traverse thorugh array starting from 1
     for(let j = 1; j < arr.length; j++){
+        // if element at 2nd pointer is not equal to element at 1st pointer then we have found new unique element and store it at next index of 1st pointer
         if(arr[j] !== arr[i]) {
             i++
             arr[i] = arr[j]
