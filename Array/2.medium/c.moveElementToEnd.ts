@@ -10,6 +10,8 @@
 sampleInput = [2, 1, 2, 2, 2, 3, 4, 2]
 sampleOutput = [1, 3, 4, 2, 2, 2, 2, 2]
 
+the simplest approach to solve this problem is to take an array and store all the elements other than toMove in new array , now in the original array start copying elements from new Array into original array and once all the elements from new array are copied , replace next all elements in original array by toMove value 
+
 TC: O(n), SC: O(1)
 */
 export function moveElementToEnd(array: number[], toMove: number) {
