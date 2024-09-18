@@ -1,7 +1,7 @@
 > - You are given an array of positive integers and you have to tell how many different ways of selecting the elements from the array are there such that the sum of chosen elements is equal to the target number
 
 ### explanation
-- since we need to find the total number of ways , or total number of susets that equals target number , this problem is similar to the previous one
+- since we need to find the total number of ways , or total number of subsets that equals target number , this problem is similar to the previous one
 - TS of below solution 2**n, SC: O(N)
 ```ts
 function NumberOfSubsets(arr: number[], target: number, idx: number){
