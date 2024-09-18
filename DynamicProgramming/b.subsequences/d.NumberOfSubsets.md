@@ -3,6 +3,22 @@
 ### explanation
 - since we need to find the total number of ways , or total number of subsets that equals target number , this problem is similar to the previous one
 - TS of below solution 2**n, SC: O(N)
+
+#### Thinking about the problem
+- express the problem in terms of index which is index and target here
+- this is pick and not problem
+- and we need to find the total number of ways
+- so in base condition as follows
+```ts
+if(i===0){
+ return 1
+ return 0
+}
+```
+- we will have something like above
+- when index is 0 which means can we get the target we can only if target === arr[0]
+- or if target === 0 return 1
+
 ```ts
 function NumberOfSubsets(arr: number[], target: number, idx: number){
     if(target === 0) return 1
