@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/afe3d825-3d5b-47bf-8879-f6097b7ddbd7)
-![image](https://github.com/user-attachments/assets/65c55f44-8d6d-4255-8fda-37571b4a8e3c)
+<img src="https://github.com/user-attachments/assets/afe3d825-3d5b-47bf-8879-f6097b7ddbd7" width=400 height=400>
+<img src="https://github.com/user-attachments/assets/65c55f44-8d6d-4255-8fda-37571b4a8e3c" width=400 height=400>
 
 
 ```ts
