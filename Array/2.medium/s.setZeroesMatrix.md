@@ -75,3 +75,5 @@ export function Call_setZeros_Brute(){
     console.log(arr)
 }
 ```
+
+### We can still optimize this as it is taking extra space
