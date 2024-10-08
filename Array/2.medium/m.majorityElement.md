@@ -1,8 +1,9 @@
+- the question is to find the element that appears more than n/2 times
+- simplest way to find the majority of the element is the brute force, iterate through the array take each element and keep counting in another interation from 0 till the end
+- better approach: another way by using map keep counting each element and storing the count value in map now this will TC: O(NLogN) SC: O(N) in worse condition
+- optimal approach: we can further optimize the code using moores voting algorithm
+
 ```ts
-// the question is to find the element that appears more than n/2 times
-// simplest way to find the majority of the element is the brute force, iterate through the array take each element and keep counting in another interation from 0 till the end
-// better approach: another way by using map keep counting each element and storing the count value in map now this will TC: O(NLogN) SC: O(N) in worse condition
-// optimal approach: we can further optimize the code using moores voting algorithm
 
 function majorityElement(arr: number[]){
     let el = arr[0]
