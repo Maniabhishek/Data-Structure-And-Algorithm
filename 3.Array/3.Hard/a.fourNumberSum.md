@@ -1,4 +1,4 @@
-```
+```ts
 interface Pairs {
   [key: number]: [number, number][];
 }
