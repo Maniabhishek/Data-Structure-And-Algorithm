@@ -3,7 +3,7 @@
 > - allowed movement up, left diagonal , right diagonal
 > - find total number of ways to reach the final row in any column
 
-- if we fix ending or starting row let's if we start from final row 0 column then we always have to reach to 0th column , so we need to find the same from each column
+- if we fix ending or starting row let's if we start from final row 0 column then we always have to reach to 0th row , so we need to find the same from each column
 
 ```ts
 function MinPathumBothVariable(i: number, j: number, arr: number[][]){
