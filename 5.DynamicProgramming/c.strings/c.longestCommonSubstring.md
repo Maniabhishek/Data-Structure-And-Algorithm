@@ -4,6 +4,8 @@
 - can we use the same code as previous for longest common subsequences
 - in previous scenario we had a logic, at given index when strings or char are not matching then we check one index lesser on either of the string
 - in this case we dont want this , as we need longest substring
+- in case of longest subsequence we are using match and not match , in case of not_match we were either removing from 1st string or from 2nd string
+
 - so we can just use the tabulation code where ever or which ever index it finds the same string , then add 1 to dp[i-1][j-1] and the maximum number in the matrix will be the answer
 
 ```ts
