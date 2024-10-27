@@ -6,6 +6,10 @@
 - for example abcaa , let's say aaa is longest pallindrome subsequence, then pending letter are bc, we will see one a will be inserted in 1st position, aabcaa, now if we insert b at 4th index then aabcbaa
 - below code can be improved using memoization, tabulation as done in previous problems
 
+> - for example abcaa , in this aaa is the longest pallindrome or aba or aca,
+> - let's take aaa as longest pallindrome
+> - abcaa if we take aaa then which character is pending it is bc so only if we place bc properly then we can make this pallindrome with only two insertion, abcacba , this is a pallindrome
+
 ```ts
 // this function will give me the longest common subsequence
 function MinimumStringToPallindrome(s1: string, s2: string, i: number, j: number){
