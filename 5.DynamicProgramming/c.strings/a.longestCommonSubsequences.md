@@ -7,7 +7,7 @@
 > - and if it doesn't matches then simply we will check for both index in both the string which means shift 1 index once for 1st string and then for 2nd string , whichever gives the maximum result will be answer
 
 ```ts
- //TC : O(2^n * 2^m) SC: O(N + M)
+ //TC : O(2^n * 2^m) SC: O(N + M) , because of alternate deletion in subsequnce
 function LongestCommonSubsequences(s1:string, s2: string, idx1: number, idx2: number){
     if(idx1 < 0 || idx2 < 0){
         return 0
