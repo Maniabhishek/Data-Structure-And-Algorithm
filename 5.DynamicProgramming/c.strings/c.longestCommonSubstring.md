@@ -5,7 +5,7 @@
 - in previous scenario we had a logic, at given index when strings or char are not matching then we check one index lesser on either of the string
 - in this case we dont want this , as we need longest substring
 - in case of longest subsequence we are using match and not match , in case of not_match we were either removing from 1st string or from 2nd string
-
+- as we can see in the image , when it doesn't match we remove one from each string and then try, but here in this case we can't do it as we want contiguous string, thus when it doesn't match then simply we can assign 0
 <img src="https://github.com/user-attachments/assets/c0fea1e2-7d7d-4bba-8f24-38782f6ac699" height=400 weight=400 />
 
 
