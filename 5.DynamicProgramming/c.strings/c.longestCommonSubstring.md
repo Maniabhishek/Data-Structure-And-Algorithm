@@ -11,6 +11,9 @@
 
 - so we can just use the tabulation code where ever or which ever index it finds the same string , then add 1 to dp[i-1][j-1] and the maximum number in the matrix will be the answer
 
+https://github.com/user-attachments/assets/dfbf7172-26ff-4879-a893-5d893bf9061c
+
+
 ```ts
 function LongestCommonSubstring(s1: string, s2: string){
     const dp: number[][] = new Array(s1.length+1).fill(null).map(()=> new Array(s2.length + 1).fill(0))
