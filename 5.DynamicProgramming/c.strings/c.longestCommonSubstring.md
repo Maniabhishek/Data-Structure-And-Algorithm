@@ -11,7 +11,7 @@
 
 - so we can just use the tabulation code where ever or which ever index it finds the same string , then add 1 to dp[i-1][j-1] and the maximum number in the matrix will be the answer
 
-https://github.com/user-attachments/assets/dfbf7172-26ff-4879-a893-5d893bf9061c
+<img src="https://github.com/user-attachments/assets/dfbf7172-26ff-4879-a893-5d893bf9061c" height=400 weight=400 />
 
 
 ```ts
