@@ -6,7 +6,7 @@
 - in this case we dont want this , as we need longest substring
 - in case of longest subsequence we are using match and not match , in case of not_match we were either removing from 1st string or from 2nd string
 
-![image](https://github.com/user-attachments/assets/c0fea1e2-7d7d-4bba-8f24-38782f6ac699)
+<img src="https://github.com/user-attachments/assets/c0fea1e2-7d7d-4bba-8f24-38782f6ac699" height=400 weight=400 />
 
 
 - so we can just use the tabulation code where ever or which ever index it finds the same string , then add 1 to dp[i-1][j-1] and the maximum number in the matrix will be the answer
