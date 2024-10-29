@@ -34,3 +34,50 @@ export function Call_distinctSubsequences(){
     console.log(distinctSubsequences(s1, s2, s1.length - 1, s2.length-1))
 }
 ```
+- using memoization
+```ts
+function distinctSubsequences(s1: string, s2: string, i:number, j: number){
+    if(j < 0) {
+        return 1
+    }
+
+    if(i < 0) {
+        return 0
+    }
+
+    let count = 0
+    if(s1[i] === s2[j]){
+        count = distinctSubsequences(s1, s2, i-1, j-1) + distinctSubsequences(s1, s2, i-1, j)
+    }else {
+        count = distinctSubsequences(s1, s2, i-1, j)
+    }
+    return count
+}
+
+
+function distinctSubsequencesMemoization(s1: string, s2: string, i:number, j: number, dp: number[][]){
+    if(j < 0) {
+        return 1
+    }
+
+    if(i < 0) {
+        return 0
+    }
+
+    if(dp[i][j] !== -1) return dp[i][j]
+
+    let count = 0
+    if(s1[i] === s2[j]){
+        count = distinctSubsequences(s1, s2, i-1, j-1) + distinctSubsequences(s1, s2, i-1, j)
+    }else {
+        count = distinctSubsequences(s1, s2, i-1, j)
+    }
+    return dp[i][j] = count
+}
+
+export function Call_distinctSubsequences(){
+    const s1 = "babgbag"
+    const s2 = "bag"
+    console.log(distinctSubsequences(s1, s2, s1.length - 1, s2.length-1))
+}
+```
