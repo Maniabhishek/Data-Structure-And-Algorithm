@@ -7,7 +7,7 @@
 - Return summation of all possibilities
 - Base Case, needs to return 1 or 0 as we need to count all the ways, so what will be the base condition when you exhausted j this means j < 0, then return 1 another is when j is still at some index, and i is exhausted then return 0
 - TC: O(i*j)
-- SC: O(i+j) Auxilary stack space
+- SC: O(i+j) Auxiliary stack space
 
 ```ts
 function distinctSubsequences(s1: string, s2: string, i:number, j: number){
