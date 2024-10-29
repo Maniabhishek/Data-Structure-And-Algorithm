@@ -6,7 +6,7 @@
 - explore all possibilities (what are the possibilities 1st is when string matches we either consider that string and substract the index (i-1,j-1), or we dont consider that char but we will explore other, then (i-1, j), other condition is when string doesn't matches then (i-1, j)
 - Return summation of all possibilities
 - Base Case, needs to return 1 or 0 as we need to count all the ways, so what will be the base condition when you exhausted j this means j < 0, then return 1 another is when j is still at some index, and i is exhausted then return 0
-- TC: exponential 
+- TC: O(2^i*2^j) exponential 
 - SC: O(i+j) Auxiliary stack space
 
 ```ts
