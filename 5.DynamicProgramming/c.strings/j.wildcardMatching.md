@@ -1,3 +1,18 @@
+### WildCard Matching
+- We are given two strings ‘S1’ and ‘S2’. String S1 can have the following two special characters:
+    - '?' can be matched to a single character of s2
+    - '*' can be matched to any sequence of characters of s2. (sequence can be of length zero or more)
+- we need to check whether strings s1 and s2 match or not
+
+- Example:
+- '?ay' ray - matches
+- '**abcd' 'abcd' - matches
+
+- how to approach this problem , as we have been solving string problem based on matching and not matching
+- again we solve it in the same way represent the problem in terms of index
+- at every index (do all stuffs) in this case if character matches or in string we found ? then we can say it matched and do (i-1, j-1), if it is * then it can match that character then i, j-1 or it doesnt consider * as  empty "" , then i-1, j
+- and for base condition what could it be , since we need to return true or false it matched or not , then if both indexes reaches -ve at the same point it means string is matche d return true , if i is exhausted and j still has some value then it won't match ,  and if i has some value with j ehausted then string will only match if all the characters are *
+  
 ```ts
 // TC : exponential SC: O(N+M)
 function WildCardMatching(s1: string, s2: string, i: number, j: number){
