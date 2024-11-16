@@ -1,4 +1,4 @@
-- similar question but we are allowed to do maximum 2 transation means , 2 times buy and sell
+- similar question but we are allowed to do maximum 2 transaction means , 2 times buy and sell
 
 ```ts
 // now this question is similar to the previous one , only difference is that we can only do 2 transaction
