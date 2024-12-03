@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/321cc4c4-6c26-4c03-88f0-840686b8bdb5)
+
+
 ```ts
 function jumpGame(arr: number[]){
     let max = 0
