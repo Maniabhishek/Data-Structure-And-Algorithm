@@ -15,6 +15,7 @@
 
 <img src="https://github.com/user-attachments/assets/3f015c12-e801-4152-8029-970f33049412" width=400>
 
+
 ```ts
 function validParenthesis(str: string, idx: number, count: number){
     if(count < 0) return false
