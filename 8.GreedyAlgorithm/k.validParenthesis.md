@@ -55,8 +55,10 @@ function validParenthesis2(str: string){
             max -= 1
         }else {
             max = max+1
-            min = min-1 < 0 ? min : min-1
+            min = min-1 
         }
+        if(min < 0) min = 0
+        if(max < 0) return false
     }
 
 
