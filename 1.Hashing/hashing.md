@@ -25,7 +25,7 @@ function f(n, arr){
 > - and storing or fetching anything from map takes log(n) TC
 > - we do have something called unordered map in c++ stl and java collection
 > - where it can take O(1) TC for average and best case, so for the most of the case it will be O(1)
-> - but for worst case it will be O(1)
+> - but for worst case it will be O(N)
 > - so we should use unorderedmap most of the time if it take O(N) then switch to ordered map
 > - how does hashing works 1) division method 2) folding method 3) mid square method
 >> - division method basically works by getting modulo lets say we have an array 0,1,2,2,3,4,4,19 and we want store the count , then get the modulo of each for 0%10 is 0 then store 0 at key 0 similarly 1%10 is 1 store 1 at 1, and goes on same for 19 19%10 it will be stored at 9
