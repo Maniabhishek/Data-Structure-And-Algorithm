@@ -1,3 +1,6 @@
+### Assigned Cookies
+- two arrays are given with greed and a value array, greed represent the greed of a particular child, and that child can only be satisfied if it gets treat worth more than or equal to greed value , treat value is provided in value array
+
 ```ts
 function assignCookies(greed: number[], value: number[]){
     const sortedGreed = greed.sort((a,b)=> a-b)
