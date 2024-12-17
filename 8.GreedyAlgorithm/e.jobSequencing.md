@@ -25,7 +25,7 @@ function jobSequencing(jobs: job[]){
     let maxProfit = 0
     let jobCount = 0
     for(let i = 0; i < sortedJobs.length; i++){
-        for(let j = sortedJobs[i].deadline; j >= 0; j--){
+        for(let j = sortedJobs[i].deadline; j > 0; j--){
             if(sequence[j] === -1 ){
                 sequence[j] = sortedJobs[i].id
                 maxProfit += sortedJobs[i].profit
