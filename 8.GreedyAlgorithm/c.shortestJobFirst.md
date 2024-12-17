@@ -6,7 +6,7 @@
 - 2nd process 2 which will start from 1th time, next is 3 which will start from 3rd , 
 - next is 4 which will start from 6th 
 - final process 7 will start from 10th as previous process will take 4 unit of time hence 6th + 4th 10th
-- now sum all 0 + 1 + 3 + 6 + 10 = 20 avg will be 20/4 = 5
+- now sum all 0 + 1 + 3 + 6 + 10 = 20 avg will be 20/5 = 4
 
 ```ts
 
