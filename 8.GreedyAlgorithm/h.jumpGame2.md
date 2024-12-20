@@ -1,5 +1,8 @@
+- task is to find the minimum number of jump required to reach the last index
 - TC: O(N^N) exponential
 - SC : O(N) auxilliary space
+
+
 ```ts
 function JumpGame2(arr: number[], idx: number, jump: number){
     if(idx >= (arr.length - 1)) return jump
