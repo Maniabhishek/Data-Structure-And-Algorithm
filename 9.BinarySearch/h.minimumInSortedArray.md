@@ -10,16 +10,6 @@
 - then simply update low = mid +1
 - if for example right side is sorted then take the mid value as min , and update high = mid - 1
 
-- we can add an optimization in above code , let's 
-- [0,1,2,3] this array is already sorted which arr[low] <= arr[high]
-- whenver this sitation meets array will always be sorted so no need to do binary search \
-- this condition is true because we rotating from right and if it rotated and array is not sorted in that case arr[low] will never be less than arr[high]
-- but when it sorted then it will be the case that arr[low] <= arr[high] take low value and update minimum
-```ts
-if(arr[low] <= arr[high]) {
-min = arr[low]
-break
-} ```
 ```ts
 function minimumInSortedArray(arr: number[]){
     let low = 0;
@@ -46,3 +36,13 @@ export function CallminimumInSortedArray(){
 }
 
 ```
+- we can add an optimization in above code , let's 
+- [0,1,2,3] this array is already sorted which arr[low] <= arr[high]
+- whenver this sitation meets array will always be sorted so no need to do binary search \
+- this condition is true because we rotating from right and if it rotated and array is not sorted in that case arr[low] will never be less than arr[high]
+- but when it sorted then it will be the case that arr[low] <= arr[high] take low value and update minimum
+```ts
+if(arr[low] <= arr[high]) {
+min = arr[low]
+break
+} ```
