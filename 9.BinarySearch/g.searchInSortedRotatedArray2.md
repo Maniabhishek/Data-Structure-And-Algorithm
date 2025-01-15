@@ -1,0 +1,1 @@
+- this question is similar to the previous one, only difference here is that array can contain duplicates
