@@ -28,6 +28,9 @@ function findPeakElement2(arr: number[]){
 }
 ```
 
+![image](https://github.com/user-attachments/assets/ab25370e-1991-433b-810c-eca9b1637b84)
+
+![image](https://github.com/user-attachments/assets/230f7a68-7c70-41a1-81bf-06d7b9893ea3)
 
 ```ts
 // the above code has time complexity of O(n)
