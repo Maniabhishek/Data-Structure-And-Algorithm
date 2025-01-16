@@ -26,7 +26,10 @@ function findPeakElement2(arr: number[]){
         }
     }
 }
+```
 
+
+```ts
 // the above code has time complexity of O(n)
 // since we need to search and some part of the array is sorted so we can think of binary search in order to reduce the time complexity
 function findPeakElementUsingBinarySearch(arr: number[]){
