@@ -2,6 +2,12 @@
 - Each hour, the monkey chooses a non-empty pile of bananas and eats ‘m’ bananas. If the pile contains less than ‘m’ bananas, then the monkey consumes all the bananas and won’t eat any more bananas in that hour.
 - Find the minimum number of bananas ‘m’ to eat per hour so that the monkey can eat all the bananas within ‘h’ hours.
 
+
+![image](https://github.com/user-attachments/assets/dfbf8b77-c3a8-4ce8-aa6e-4eb478ede8d2)
+
+![image](https://github.com/user-attachments/assets/52c88545-cbfa-48fc-8a3f-00b33ac85786)
+
+
 ```ts
 function kokoEatingBananas(pilesOfBananas: number[], withinHours: number){
     let low = 1;
