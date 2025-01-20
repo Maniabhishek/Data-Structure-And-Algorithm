@@ -12,8 +12,8 @@
 - so we can iterate through, 6,7,8... 34
 - check how many days for each capacity will take the moment we get the value lesser than 5 days , will be the answer
 
-  ```ts
-  function findCapacity(arr: number[], withinDays: number){
+```ts
+function findCapacity(arr: number[], withinDays: number){
     let maxCapacity = arr.reduce((a,b)=> a+b)
 
     for(let i = 1; i <= maxCapacity; i++){
@@ -24,7 +24,6 @@
     }
     return -1
 }
-
 
 function findDaysWithGivenCapacity(arr: number[], capacity: number){
     let day = 1
@@ -63,4 +62,4 @@ export function CallfindCapacity() {
     console.log(findCapacity(arr, withinDays))
 }
 
-  ```
+```
