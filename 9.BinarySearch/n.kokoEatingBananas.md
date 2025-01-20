@@ -3,9 +3,9 @@
 - Find the minimum number of bananas ‘m’ to eat per hour so that the monkey can eat all the bananas within ‘h’ hours.
 
 
-<img src="https://github.com/user-attachments/assets/dfbf8b77-c3a8-4ce8-aa6e-4eb478ede8d2" width=400 >
+<img src="https://github.com/user-attachments/assets/dfbf8b77-c3a8-4ce8-aa6e-4eb478ede8d2" width=400 hieght=400 >
 
-<img src="https://github.com/user-attachments/assets/52c88545-cbfa-48fc-8a3f-00b33ac85786" width=400 >
+<img src="https://github.com/user-attachments/assets/52c88545-cbfa-48fc-8a3f-00b33ac85786" width=400 hieght=400 >
 
 
 ```ts
