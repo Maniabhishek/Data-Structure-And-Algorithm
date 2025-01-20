@@ -63,3 +63,10 @@ export function CallfindCapacity() {
 }
 
 ```
+
+- above code we haven't added the range from max to sum, but 1...max , it will be btter if we add range [max , sumOfArr]
+- still above code has TC: O(SumOFAllArray*N)
+- we can still improve the TC by using binary search, as we have range so definetly we can eliminate some range using it
+
+```ts
+```
