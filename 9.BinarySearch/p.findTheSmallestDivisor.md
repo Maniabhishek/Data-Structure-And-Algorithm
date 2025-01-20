@@ -11,7 +11,7 @@
 - divisor = 4 1/4=1, 2/4 = 1, 5/4 = 2, 9/4 = 3 sum=7 > threhold
 - divisor = 5 1/5=1, 2/5 = 1, 5/5=1, 9/5 = 2 sum = 5 <= threshold this is the answer , divisor = 5
 
-```
+```ts
 function findSmallestDivisor(arr: number[], threshold: number){
     let ans = Infinity
     let max = arr[0]
@@ -41,8 +41,10 @@ export function callfindSmallestDivisor(){
     let threshold = 6
     console.log(findSmallestDivisor(arr, threshold))
 }
+```
+- as we can see we are traversing from 1,2....up to max value so definetly we can use the binary search here to improve the TC
 
-// as we can see we are traversing from 1,2....up to max value so definetly we can use the binary search here to improve the TC
+```ts
 function findSmallestDivisorUsingBS(arr: number[], threshold: number){
     let low = 1;
     let high = arr[0]
