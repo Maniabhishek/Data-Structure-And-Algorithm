@@ -69,4 +69,36 @@ export function CallfindCapacity() {
 - we can still improve the TC by using binary search, as we have range so definetly we can eliminate some range using it
 
 ```ts
+function findCapacityUsingBS(weights: number[], withInDays: number){
+    let maxCapacity = weights.reduce((a,b)=> a+b)
+    let maxValue = weights[0]
+    for(let i = 1; i < weights.length; i++){
+        maxValue = Math.max(weights[i], maxValue)
+    }
+
+    // so the answer (least capacity) will obviously be from maxValue ....maxCapacity
+
+    let low = maxValue;
+    let high = maxCapacity
+    let ans = -1
+    while(low <= high){
+        let mid = Math.floor((low+high)/2)
+
+        let daysTaken = findDaysWithGivenCapacity(weights, mid)
+        if(daysTaken <= withInDays){
+            ans = mid
+            high = mid - 1
+        }else {
+            low = mid + 1
+        }
+    }
+    return ans
+}
+
+export function CallfindCapacity2() {
+    let arr = [5,4,5,2,3,4,5,6]
+    let withinDays = 5
+    console.log(findCapacityUsingBS(arr, withinDays))
+}
+
 ```
