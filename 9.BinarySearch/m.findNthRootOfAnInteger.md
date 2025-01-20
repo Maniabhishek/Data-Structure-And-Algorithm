@@ -26,6 +26,22 @@ function findPower(num: number, power: number): number{
     return ans
 }
 
+function findPower2(num: number, power: number){
+    let ans = 1;
+
+    while(power > 0){
+        console.log(power)
+        if(power % 2 === 1){
+            ans = num * ans
+            power = power - 1
+        }else {
+            num = num * num
+            power = power/2
+        }
+    }
+    return ans
+}
+
 export function callNthRootOfInteger(){
     console.log(nthRootOfInteger(25,2))
 }
