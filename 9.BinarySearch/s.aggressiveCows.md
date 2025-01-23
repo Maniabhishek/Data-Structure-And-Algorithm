@@ -2,6 +2,10 @@
 - You are given the task of assigning stalls to 'k' cows such that the minimum distance between any two of them is the maximum possible.
 - Print the maximum possible minimum distance.
 
+![image](https://github.com/user-attachments/assets/3dc15f48-d1cb-4019-85a6-cf4f4eb3cba0)
+![image](https://github.com/user-attachments/assets/3b5f850b-4ac1-4b67-a64f-954ed2a30d39)
+
+
 ```ts
 function placeAggressiveCows(stalls: number[], numberOfCows: number){
     stalls.sort((a,b)=> a-b)
