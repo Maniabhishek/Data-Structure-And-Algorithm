@@ -13,6 +13,9 @@ Input: ‘n’ = 4 ‘m’ = 2
 
 Output: 113
 
+![image](https://github.com/user-attachments/assets/a83c6467-4591-4fbc-9528-4f639d95b118)
+
+
 ```ts
 function allocateBooks(bookWithPageCount: number[], studentCount: number){
 
