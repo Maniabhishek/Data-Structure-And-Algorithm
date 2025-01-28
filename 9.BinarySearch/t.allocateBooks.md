@@ -67,6 +67,7 @@ export function CallAllocateBooks(){
 // since we have a range from max to sum of all pages
 // so we can still improve the code using binary search
 // so if studentCount we get more low = mid + 1 else high = mid - 1
+// we are taking low , if you do dry run , you will see low always ends up on answer
 
 function allocateBooksUsingBS(bookWithPageCount: number[], studentCount: number){
     if(studentCount > bookWithPageCount.length) return -1
