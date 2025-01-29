@@ -1,6 +1,6 @@
-<img width=400 height=400 src="https://github.com/user-attachments/assets/381c3c9f-0e17-41e6-bd53-09ada8394a6c">
+<img width=400 height=500 src="https://github.com/user-attachments/assets/381c3c9f-0e17-41e6-bd53-09ada8394a6c">
 
-<img width=400 height=400 src="https://github.com/user-attachments/assets/c42376b5-d85e-46fe-b129-afbf309fec24">
+<img width=400 height=500 src="https://github.com/user-attachments/assets/c42376b5-d85e-46fe-b129-afbf309fec24">
 
 ```ts
 function minMaxDisBtwGasStation(gasStation: number[], k: number){
