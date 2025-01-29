@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/381c3c9f-0e17-41e6-bd53-09ada8394a6c)
+
+![image](https://github.com/user-attachments/assets/c42376b5-d85e-46fe-b129-afbf309fec24)
+
 ```ts
 function minMaxDisBtwGasStation(gasStation: number[], k: number){
     let howMany = new Array(gasStation.length - 1).fill(0)
