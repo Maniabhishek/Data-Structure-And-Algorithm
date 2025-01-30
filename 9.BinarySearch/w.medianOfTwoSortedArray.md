@@ -48,7 +48,7 @@ export function CallfindMedian(){
 - well this is simple to figure out by traversing in both the arrays
 
 
-```
+```ts
 function findMedianSpaceOptimized(arr1: number[], arr2: number[]){
     let indexCount = -1
 
