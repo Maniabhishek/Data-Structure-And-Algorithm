@@ -38,3 +38,13 @@ export function CallMinMaxDisBtwGasStation(){
 }
 
 ```
+- above code has time complexity of O(K*N) O(N-1)
+- so can we improve time complexity
+- so we have to place k gas station so we can't really do much with iteration of k times
+- but in next loop we are looking for the max distance all the time and we are placing in between 
+- hence instead of finding max value every time we can just use priority queue
+- now pq.push() takes log(n) time , in Priority queue max element alway reamin on top
+- pq.push(1) pq.push(2), pq.push(3) ....pq.top() result 3 , pq.top() result 3 , pq.pop() , pq.top() result 2
+- so we will store all the distance in pq and keep updating the values
+
+
