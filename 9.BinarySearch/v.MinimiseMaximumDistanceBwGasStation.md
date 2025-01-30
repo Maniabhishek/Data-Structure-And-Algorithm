@@ -48,7 +48,5 @@ export function CallMinMaxDisBtwGasStation(){
 - so we will store all the distance in pq and keep updating the values
 
 
-https://github.com/user-attachments/assets/c00c35bb-39df-42f3-a885-3494d1c1b090
-
-
-https://github.com/user-attachments/assets/f0bd3731-f2d4-4bc7-85bf-8a843de8458c
+<img width=500 height=500 src="https://github.com/user-attachments/assets/c00c35bb-39df-42f3-a885-3494d1c1b090">
+<img width=500 height=500 src="https://github.com/user-attachments/assets/f0bd3731-f2d4-4bc7-85bf-8a843de8458c">
