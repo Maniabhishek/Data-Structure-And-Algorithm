@@ -97,25 +97,67 @@ export function CallfindMedianSpaceOptimized(){
 }
 ```
 
-![image](https://github.com/user-attachments/assets/27b331bb-ea0b-4647-92b3-684c762cb909)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/27b331bb-ea0b-4647-92b3-684c762cb909">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/2b045091-6675-4fa5-9ef5-79c65569054d">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/04b88ac0-aede-4231-9fad-1196376f2881">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/425a4a46-a87e-4d80-a66d-592a7c9fc61b">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/84cce1c7-c236-4200-9461-618413cf8a6a">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/d9fff567-9d78-4a89-964f-c62416072752">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/f9968a2a-0354-44c4-9bb1-76e02f59cb0b">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/f21d3c36-07d4-48bb-ac1f-7b7f71439120">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/32a43d67-9ecf-4c42-944e-237f68de7482">
 
-![image](https://github.com/user-attachments/assets/2b045091-6675-4fa5-9ef5-79c65569054d)
+```ts
 
-![image](https://github.com/user-attachments/assets/04b88ac0-aede-4231-9fad-1196376f2881)
+function findMedianUsingBinarySearch(arr1: number[], arr2: number[]){
+    let n = arr1.length + arr2.length 
 
+    let firstHalf = Math.floor((n + 1)/2) // adding 1 for odd case scenario, if 5 elements then 3 on left side so l1 and l2 larger will be the answer
 
-![image](https://github.com/user-attachments/assets/425a4a46-a87e-4d80-a66d-592a7c9fc61b)
+    if(arr1.length > arr2.length ) return findMedianUsingBinarySearch(arr2, arr1)
 
-![image](https://github.com/user-attachments/assets/84cce1c7-c236-4200-9461-618413cf8a6a)
+    let low = 0
+    let high = arr1.length
+    while(low <= high){
+        let mid1 = Math.floor((high+ low)/2)
+        let mid2 = firstHalf - mid1
+        let r1 = Infinity
+        let r2 = Infinity
+        let l1 = -Infinity
+        let l2 = -Infinity
+        if(mid1-1 >= 0){
+            l1 = arr1[mid1-1]
+        }
+        if(mid2-1 >= 0){
+            l2 = arr2[mid2-1]
+        }
+        if(mid1 < arr1.length){
+            r1 = arr1[mid1]
+        }
+        if(mid2 < arr2.length){
+            r2 = arr2[mid2] 
+        }
 
+        if(l1 <= r2 && l2 <= r1){
+            if(n %2 === 1) return Math.max(l1,l2)
+            return (Math.max(l1,l2) + Math.min(r1, r2))/2
+        }else if (l1 > r2){
+            high =mid1 - 1
+        }else {
+            low = mid1 + 1
+        }
+    }
+    return 0
+}
 
-![image](https://github.com/user-attachments/assets/d9fff567-9d78-4a89-964f-c62416072752)
+export function CallfindMedianUsingBinarySearch(){
+    let arr1 = [2,3,4]
+    let arr2 = [1,3]
 
+    // arr1 = [1,3,4,7,10,12]
+    // arr2 = [2,3,6,15]
 
-![image](https://github.com/user-attachments/assets/f9968a2a-0354-44c4-9bb1-76e02f59cb0b)
+    console.log(findMedianUsingBinarySearch(arr1, arr2))
+}
 
-![image](https://github.com/user-attachments/assets/f21d3c36-07d4-48bb-ac1f-7b7f71439120)
-
-![image](https://github.com/user-attachments/assets/32a43d67-9ecf-4c42-944e-237f68de7482)
-
-
+```
