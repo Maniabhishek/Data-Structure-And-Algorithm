@@ -96,3 +96,26 @@ export function CallfindMedianSpaceOptimized(){
     console.log(findMedianSpaceOptimized(arr1, arr2))
 }
 ```
+
+![image](https://github.com/user-attachments/assets/27b331bb-ea0b-4647-92b3-684c762cb909)
+
+![image](https://github.com/user-attachments/assets/2b045091-6675-4fa5-9ef5-79c65569054d)
+
+![image](https://github.com/user-attachments/assets/04b88ac0-aede-4231-9fad-1196376f2881)
+
+
+![image](https://github.com/user-attachments/assets/425a4a46-a87e-4d80-a66d-592a7c9fc61b)
+
+![image](https://github.com/user-attachments/assets/84cce1c7-c236-4200-9461-618413cf8a6a)
+
+
+![image](https://github.com/user-attachments/assets/d9fff567-9d78-4a89-964f-c62416072752)
+
+
+![image](https://github.com/user-attachments/assets/f9968a2a-0354-44c4-9bb1-76e02f59cb0b)
+
+![image](https://github.com/user-attachments/assets/f21d3c36-07d4-48bb-ac1f-7b7f71439120)
+
+![image](https://github.com/user-attachments/assets/32a43d67-9ecf-4c42-944e-237f68de7482)
+
+
