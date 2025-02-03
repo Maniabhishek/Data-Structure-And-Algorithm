@@ -66,7 +66,7 @@ export function CallsearchIn2DByFlatteningTechnique(){
     console.log(searchIn2DByFlatteningTechnique(arr, 35))
 }
 ```
-![image](https://github.com/user-attachments/assets/7f307993-7880-432e-a7ac-7405a0259d0b)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/7f307993-7880-432e-a7ac-7405a0259d0b">
 
-![image](https://github.com/user-attachments/assets/88514c4c-e00f-48cd-90a1-825deaeffc31)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/88514c4c-e00f-48cd-90a1-825deaeffc31">
 
