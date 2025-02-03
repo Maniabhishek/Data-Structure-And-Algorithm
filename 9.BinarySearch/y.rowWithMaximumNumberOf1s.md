@@ -1,3 +1,6 @@
+- Given n*m matrix, we need to find a row with maximum number of 1's , all the rows are in sorted order
+- now that rows are in sorted order, and array contain only 0's and 1's , if we find the smallest index where 1 is the we can easily find out the number of 1s
+
 ```ts
 function lowerBound(arr: number[], x: number){
     let low = 0;
