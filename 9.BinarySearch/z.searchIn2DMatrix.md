@@ -44,7 +44,7 @@ export function CallsearchIn2D(){
 <img width=400 height=400 src="https://github.com/user-attachments/assets/7f307993-7880-432e-a7ac-7405a0259d0b">
 <img width=400 height=400 src="https://github.com/user-attachments/assets/88514c4c-e00f-48cd-90a1-825deaeffc31">
 
-```
+```ts
 function searchIn2DByFlatteningTechnique(arr: number[][], target: number){
     let n = arr.length
     let m = arr[0].length 
