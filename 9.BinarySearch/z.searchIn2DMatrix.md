@@ -39,7 +39,12 @@ export function CallsearchIn2D(){
     let arr = [[1,2,3,4], [15,16,17,18], [29,30,31,32]]
     console.log(searchIn2D(arr, 31))
 }
+```
 
+<img width=400 height=400 src="https://github.com/user-attachments/assets/7f307993-7880-432e-a7ac-7405a0259d0b">
+<img width=400 height=400 src="https://github.com/user-attachments/assets/88514c4c-e00f-48cd-90a1-825deaeffc31">
+
+```
 function searchIn2DByFlatteningTechnique(arr: number[][], target: number){
     let n = arr.length
     let m = arr[0].length 
@@ -66,7 +71,4 @@ export function CallsearchIn2DByFlatteningTechnique(){
     console.log(searchIn2DByFlatteningTechnique(arr, 35))
 }
 ```
-<img width=400 height=400 src="https://github.com/user-attachments/assets/7f307993-7880-432e-a7ac-7405a0259d0b">
-
-<img width=400 height=400 src="https://github.com/user-attachments/assets/88514c4c-e00f-48cd-90a1-825deaeffc31">
 
