@@ -1,6 +1,11 @@
 - we have solved finding peak in an array where we used the technique of increasing and decreasing slope
 - we can use the same idea here as well
 
+![image](https://github.com/user-attachments/assets/4830221d-829a-4ba0-8259-5b28fdc08875)
+
+![image](https://github.com/user-attachments/assets/501ada60-6c90-442d-9b14-af16fc0460cc)
+
+![image](https://github.com/user-attachments/assets/21e614a0-1535-4f44-bd5b-daf5bb792037)
 
 
 ```ts
