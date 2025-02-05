@@ -1,9 +1,9 @@
 - given a matrix of n*m where n and m is odd
 - matrix is sorted row wise, task is to find the median
 
-![image](https://github.com/user-attachments/assets/3442fa0f-dc94-4ab2-8c7d-abf154423b21)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/3442fa0f-dc94-4ab2-8c7d-abf154423b21">
 
-![image](https://github.com/user-attachments/assets/50317b24-2f07-439a-be15-d77f8cf1cd1e)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/50317b24-2f07-439a-be15-d77f8cf1cd1e">
 
 ```ts
 function medianOfRowWiseSorted(arr: number[][]){
