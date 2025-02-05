@@ -1,7 +1,7 @@
 ```ts
 // [2,4,6,8,8,8,11,13]
 // we can solve it using the lower and upper bound 
-// givenNum = 8 now our task is to find the first and last occurrence of given number, which in this is [3,5]
+// givenNum = 8 now our task is to find the first and last occurrence of given number, which in this case is [3,5]
 // what is the lower bound of 8- it's 3, and uppper bound will be 6 and ans here will be 6-1 5
 // but while finding lower bound in this case we can have one issue , when givenNumber is not present in the array 
 // let's say we want to find first and last occurrence of 9 then lower bound will be 6 which is wrong , in this case we can check arr[lb] === givenNum or not 
