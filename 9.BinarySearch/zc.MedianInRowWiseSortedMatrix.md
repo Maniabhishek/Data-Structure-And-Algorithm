@@ -1,4 +1,5 @@
 
+```ts
 function medianOfRowWiseSorted(arr: number[][]){
     let n = arr.length
     let m = arr[0].length
@@ -61,4 +62,4 @@ export function CallmedianOfRowWiseSorted(){
     let mat = [[1,5,7,9,11],[2,3,4,5,10],[9,10,12,14,16]]
     console.log(medianOfRowWiseSorted(mat))
 }   
-
+```
