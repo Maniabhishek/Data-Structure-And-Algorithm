@@ -1,4 +1,5 @@
-
+- given a matrix of n*m where n and m is odd
+- matrix is sorted row wise, task is to find the median
 ```ts
 function medianOfRowWiseSorted(arr: number[][]){
     let n = arr.length
