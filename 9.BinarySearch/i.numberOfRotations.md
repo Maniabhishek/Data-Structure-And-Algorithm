@@ -28,7 +28,7 @@ function NumberOfRotation(arr: number[]){
                 smallest = arr[low]
                 ans = low
             }
-            low = high + 1
+            low = mid + 1
         }else {
             if(arr[mid] < smallest){
                 smallest = arr[mid]
