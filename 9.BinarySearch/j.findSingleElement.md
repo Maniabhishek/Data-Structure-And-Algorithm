@@ -21,7 +21,7 @@ function findSingleElement(arr: number[]): number{
         }
     }
 }
-
+// the above condition can easily be written as if((i === 0 || arr[i]!== arr[i-1]) && (i === n - 1 || arr[i]!== ar[i+1])) return arr[i]
 export function callFindSingleElement(){
     const arr = [1,1,2,2,3,4,4,5,5,6,6]
     console.log(findSingleElement(arr))
