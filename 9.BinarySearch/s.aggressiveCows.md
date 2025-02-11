@@ -1,7 +1,7 @@
 - You are given an array 'arr' consisting of 'n' integers which denote the position of a stall. You are also given an integer 'k' which denotes the number of aggressive cows.
 - You are given the task of assigning stalls to 'k' cows such that the minimum distance between any two of them is the maximum possible.
 - Print the maximum possible minimum distance.
-
+- value of k = 4 in below question
 <img width=400 height=400 src="https://github.com/user-attachments/assets/3dc15f48-d1cb-4019-85a6-cf4f4eb3cba0">
 <img width=400 height=400 src="https://github.com/user-attachments/assets/3b5f850b-4ac1-4b67-a64f-954ed2a30d39">
 
