@@ -1,10 +1,7 @@
 - You are given a sorted array ‘arr’ of length ‘n’, which contains positive integer positions of ‘n’ gas stations on the X-axis. You are also given an integer ‘k’. You have to place 'k' new gas stations on the X-axis. You can place them anywhere on the non-negative side of the X-axis, even on non-integer positions.
+Let 'dist' be the maximum value of the distance between adjacent gas stations after adding 'k' new gas stations. Find the minimum value of dist.
 
 
-
-Let 'dist' be the maximum value of the distance between adjacent gas stations after adding 'k' new gas stations.
-
-Find the minimum value of dist.
 <img width=400 height=500 src="https://github.com/user-attachments/assets/381c3c9f-0e17-41e6-bd53-09ada8394a6c">
 
 <img width=400 height=500 src="https://github.com/user-attachments/assets/c42376b5-d85e-46fe-b129-afbf309fec24">
