@@ -1,10 +1,10 @@
 ### Given an array with 1's and 0's , k where k denotes number of 0's you can convert or consider it as 1 , thus our task is to find the max consecutive 1's present in array
 - for example [1,1,1,0,0,0,1,1,1,1,0] and k = 2 here in this case if 4 and 5 are considered as 0 then max conecutive 1's will be 6
 
-![image](https://github.com/user-attachments/assets/f79f92e8-534e-4fef-8717-44f84ebcf504)
+<img width=400 height=400 src"https://github.com/user-attachments/assets/f79f92e8-534e-4fef-8717-44f84ebcf504">
 
 
-![image](https://github.com/user-attachments/assets/a9755bff-d468-4829-b841-14c6486147bb)
+<img width=400 height=400 src"https://github.com/user-attachments/assets/a9755bff-d468-4829-b841-14c6486147bb">
 
 
 ```ts
