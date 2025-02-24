@@ -7,6 +7,9 @@
 
 -  so the brute force approach will be simple explained in the below image:
 
+![image](https://github.com/user-attachments/assets/a7913f6e-04b5-44b8-9546-e3cd231fa9e9)
+
+
 
 ```ts
 function fruitsInBasket(arr: number[], maxType: number){
@@ -37,7 +40,9 @@ export function Call_fruitsInBasket(){
 }
 ```
 
+![image](https://github.com/user-attachments/assets/92e9964b-fc83-480a-8d8d-93c14874087b)
 
+![image](https://github.com/user-attachments/assets/d6a53b5d-9fc0-48fc-be3a-10c34ec47b0d)
 
 
 ```ts
