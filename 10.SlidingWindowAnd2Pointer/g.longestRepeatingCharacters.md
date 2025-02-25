@@ -2,11 +2,11 @@
 - you are given a string of all capital letters , and k , where k denotes maxmimum number of letters you can change in order to get the longest repeating characters
 
 
-![image](https://github.com/user-attachments/assets/dc6b4cff-7b3d-4b16-8cfc-b1205b343afc)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/dc6b4cff-7b3d-4b16-8cfc-b1205b343afc">
 
-![image](https://github.com/user-attachments/assets/7cde2d2f-2a91-4a72-a3fb-9e3e86939772)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/7cde2d2f-2a91-4a72-a3fb-9e3e86939772">
 
-![image](https://github.com/user-attachments/assets/332ddb79-d73d-4055-af7c-95fcc3072776)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/332ddb79-d73d-4055-af7c-95fcc3072776">
 
 
 ```ts
