@@ -1,3 +1,9 @@
+![image](https://github.com/user-attachments/assets/e87746e9-51ce-43ba-acbc-344cd874ade1)
+
+
+
+![image](https://github.com/user-attachments/assets/a9f5d515-bae4-40a6-bdf9-fac03dac62c3)
+
 ```ts
 function NumberofSubstringContainingAllCharacters(str: string){
 
