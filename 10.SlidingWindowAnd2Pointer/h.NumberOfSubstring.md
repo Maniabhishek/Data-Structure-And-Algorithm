@@ -1,8 +1,9 @@
-![image](https://github.com/user-attachments/assets/e87746e9-51ce-43ba-acbc-344cd874ade1)
+### We are given a string , we need to find the number of substring containing all three characters a, b, c
+- easiest approach is to find all the substring and check if 3 string are there which is the first solution , improved code is explained in the image below
 
+<img width=400 height=400 src="https://github.com/user-attachments/assets/e87746e9-51ce-43ba-acbc-344cd874ade1">
 
-
-![image](https://github.com/user-attachments/assets/a9f5d515-bae4-40a6-bdf9-fac03dac62c3)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/a9f5d515-bae4-40a6-bdf9-fac03dac62c3">
 
 ```ts
 function NumberofSubstringContainingAllCharacters(str: string){
