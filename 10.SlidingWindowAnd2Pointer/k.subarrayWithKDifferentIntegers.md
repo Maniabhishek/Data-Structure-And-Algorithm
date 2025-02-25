@@ -1,3 +1,7 @@
+### you are given an array of integers , with k where k denote number of distinct integers in subarray, so our task is to find the total number of subarrays which have k distinct integers
+
+
+
 ```ts
 function subarrayWithKDifferentIntegers(arr: number[], k: number){
     let l = 0;
