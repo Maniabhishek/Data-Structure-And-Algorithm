@@ -39,9 +39,12 @@ export function Call_longestRepeatingCharacter(){
     const k = 2
     console.log(longestRepeatingCharacter(str, k))
 }
+```
 
 
-// time complexity of below code is O(N+N)* 26
+
+```ts
+// time complexity of below code is O(N+N)* 26 when we eliminate the left, so no need to eliminate using while loop , just keep incrementing, since you have x length , if you move further then you are decreasing the length which is not going to be your answer so instead of decreasing while changes > k , just increase l by one and because your answer will only lie x+1 , x+ 2...so on
 function longestRepeatingCharacter2Pointers(str: string, k: number){
     let l = 0;
     let r = 0;
