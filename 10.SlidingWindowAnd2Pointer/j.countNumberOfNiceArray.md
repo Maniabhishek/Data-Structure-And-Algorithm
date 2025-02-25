@@ -1,1 +1,1 @@
-
+### You are given an array of positive integers , and k which denotes number of odd numbers you can take to create subarray , your task is to find total number of subarray with k odd integers even can be of any numbers 
