@@ -1,8 +1,8 @@
 ### you are given an array of integers , with k where k denote number of distinct integers in subarray, so our task is to find the total number of subarrays which have k distinct integers
 
-![image](https://github.com/user-attachments/assets/66a8208d-3aeb-4877-9f26-f49c7c908720)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/66a8208d-3aeb-4877-9f26-f49c7c908720">
 
-![image](https://github.com/user-attachments/assets/fda5be4d-8159-4df3-a3d9-594db87656e0)
+<img width=400 height=400 src="https://github.com/user-attachments/assets/fda5be4d-8159-4df3-a3d9-594db87656e0">
 
 
 ```ts
