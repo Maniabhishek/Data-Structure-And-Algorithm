@@ -3,6 +3,11 @@
 -  example : string: "ddaaabbca" target: "abc"
 -  o/p : bca
 
+![image](https://github.com/user-attachments/assets/aba4bce9-15f0-4414-bbf5-27b85c15ea7c)
+
+![image](https://github.com/user-attachments/assets/71610ad2-c7a7-4161-bb11-ec64153d9942)
+
+
 ```js
 function minimumWindowSubstring2Pointers(str: string, substr: string){
     let substrMap = {}
