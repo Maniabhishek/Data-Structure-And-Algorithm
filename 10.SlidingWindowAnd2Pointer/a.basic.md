@@ -1,4 +1,4 @@
-### given an array of integers , and k, task is to find the max sum by picking k element from array in continguous way
+### given an array of integers and k your task is to find the max sum by picking k element from array in continguous way
 
 <img width=400 height=400 src="https://github.com/user-attachments/assets/f96fed30-d4b6-4ee1-bb31-3aea5eff7f23">
 
