@@ -1,1 +1,45 @@
+```js
+function minimumWindowSubstring2Pointers(str: string, substr: string){
+    let substrMap = {}
+    for(let i = 0; i < substr.length; i++){
+        if(!substrMap[substr[i]]){
+            substrMap[substr[i]] = 0
+        }
+        substrMap[substr[i]]++ 
+    }
 
+    let l = 0;
+    let r = 0;
+
+    let count = 0
+    let minLength = Infinity
+    let minIdx = -1
+    while(r < str.length){
+        if(!substrMap[str[r]]){
+            substrMap[str[r]] = 0
+        }
+        if(substrMap[str[r]] > 0) count++
+        substrMap[str[r]]--
+
+        while(count === substr.length){
+            minLength = Math.min(minLength, r-l+1)
+            minIdx = l
+            substrMap[str[l]]++
+            if(substrMap[str[l]] > 0) count--
+            l++
+        }
+
+        r++
+    }
+
+    return str.substring(minIdx, minIdx + minLength )
+}
+
+export function CallminimumWindowSubstring2Pointers(){
+    let str = "ddaaabbca"
+    let target = "abc"
+
+    console.log(minimumWindowSubstring2Pointers(str, target))
+}
+
+```
