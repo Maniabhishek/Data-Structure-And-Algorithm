@@ -1,6 +1,6 @@
 ### Longest Substring With At Most K Distinct Characters
 
-- this question is similar to the previous ones
+- this question is similar to the previous one
 
 ```ts
 function longestSubstring(str: string, k: number){
