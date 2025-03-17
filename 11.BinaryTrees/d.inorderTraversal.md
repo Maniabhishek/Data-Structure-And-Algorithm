@@ -1,5 +1,8 @@
 #### Inorder Traversal
 
+<img width="456" alt="image" src="https://github.com/user-attachments/assets/651104e6-2be0-4155-b279-ef8c77fc5d97" />
+
+
 ```ts
 class BT {
     value: number;
