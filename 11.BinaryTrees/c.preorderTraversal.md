@@ -1,5 +1,8 @@
 ### Preorder Traversal
 
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/ed63979d-459f-4bc5-84c0-4b21da4fca99" />
+
+
 ```ts
 
 class Tree {
