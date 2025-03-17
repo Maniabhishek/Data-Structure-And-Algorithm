@@ -1,5 +1,9 @@
 #### Levelorder Traversal
 
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/7f94f6a2-54d3-4f6e-b201-c7f0cd752ab7" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/a6711332-f0b4-454b-a217-212ef6c757d4" />
+
+
 ```ts
 function levelorderTraversal2(node: BT){
     const queue: BT[] = [node]
