@@ -1,5 +1,8 @@
 ## Binary Trees
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d50b3c32-9b1b-4f3a-a5e2-97b37bc6e5b6" />
+
+
 ### Different Types of binary trees
 - Full Binary Tree
 - Complete Binary Tree
