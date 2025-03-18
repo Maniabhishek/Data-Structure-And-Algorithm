@@ -1,5 +1,8 @@
 #### Iterative Preorder Traversal
 
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/b32dcbb8-c2ff-42ea-92a6-6e0577545940" />
+
+
 ```ts
 import { BT } from "./2.inorder";
 
