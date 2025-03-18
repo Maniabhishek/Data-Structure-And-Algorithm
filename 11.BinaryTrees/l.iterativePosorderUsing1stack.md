@@ -10,7 +10,11 @@ print(node.value)
 
 - we will use the same approach , we will go left all the way and once we encounter null , then we will move right and again go left from the begining of the iteration
 - lets check out the code
-- do the dry run of the code with previous example
+- do the dry run of the code with below example in the image
+
+![Uploading image.png…]()
+
+
 ```ts
 import { BT } from "./2.inorder";
 
