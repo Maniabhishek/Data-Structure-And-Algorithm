@@ -1,3 +1,9 @@
+#### Iterative Inorder Traversal
+
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/e2d3642f-2030-440e-b6fa-0f2f9adde016" />
+<img width="445" alt="image" src="https://github.com/user-attachments/assets/fed135ef-be7f-4551-af08-aa944777eb66" />
+
+
 ```ts
 import { BT } from "./2.inorder";
 
