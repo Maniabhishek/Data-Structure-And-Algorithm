@@ -12,8 +12,7 @@ print(node.value)
 - lets check out the code
 - do the dry run of the code with below example in the image
 
-![Uploading image.png…]()
-
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/1b006f4a-5f3d-468b-b16d-519a5add9a64" />
 
 ```ts
 import { BT } from "./2.inorder";
