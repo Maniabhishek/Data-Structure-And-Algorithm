@@ -24,3 +24,27 @@ export function callfindHeightOfBinaryTree(){
 }
 
 ```
+
+#### Using level order traversal
+```ts
+function findHeightUsingLevelOrderTraversal(root: BT){
+    const queue = [root]
+
+    let height = 0
+    while(queue.length){
+        let queueSize = queue.length
+
+        for(let i = 0; i < queueSize; i++){
+            let poppedElement = queue.shift()
+            if(poppedElement.left){
+                queue.push(poppedElement.left)
+            }
+            if(poppedElement.right){
+                queue.push(poppedElement.right)
+            }
+        }
+        height++
+    }
+    return height
+}
+```
