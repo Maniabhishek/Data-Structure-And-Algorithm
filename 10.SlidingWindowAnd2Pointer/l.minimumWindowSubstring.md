@@ -32,8 +32,10 @@ function minimumWindowSubstring2Pointers(str: string, substr: string){
         substrMap[str[r]]--
 
         while(count === substr.length){
-            minLength = Math.min(minLength, r-l+1)
-            minIdx = l
+            if(r-l+1 < minLength){   
+                minLength = Math.min(minLength, r-l+1)
+                minIdx = l
+            }
             substrMap[str[l]]++
             if(substrMap[str[l]] > 0) count--
             l++
