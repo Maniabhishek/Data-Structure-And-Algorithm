@@ -1,5 +1,11 @@
 #### Find height of a binary tree
-![image](https://github.com/user-attachments/assets/c048cd69-0a8c-402c-b8eb-bce356a559cb)
+
+- to find the height of the tree we can do so using recursive approach and iterative approach both
+- to solve iteratively we can use the level order travesal as showm below in the code
+- with iterative approach space complexity will be O(N) and with recusrive approach we are not using extra space but it will have auxilliary space 
+
+
+<img src="https://github.com/user-attachments/assets/c048cd69-0a8c-402c-b8eb-bce356a559cb" width=400 height=400>
 
 ```ts
 import { BT } from "../tree/2.inorder";
