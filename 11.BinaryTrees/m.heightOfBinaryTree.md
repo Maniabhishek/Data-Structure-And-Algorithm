@@ -1,4 +1,5 @@
 #### Find height of a binary tree
+![image](https://github.com/user-attachments/assets/c048cd69-0a8c-402c-b8eb-bce356a559cb)
 
 ```ts
 import { BT } from "../tree/2.inorder";
