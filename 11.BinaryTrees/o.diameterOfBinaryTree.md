@@ -1,3 +1,6 @@
+- to find the diameter of tree, diameter is said to be longest length between one node to another node (root is not necessary to be part of)
+- so if at every node we start calculating hight of left subtree and right subtree then add these height we can get the length between two node from any given node and maximum of that will give us diameter of tree
+
 ```ts
 import { BT } from "../tree/2.inorder";
 let maxHeight = 0
