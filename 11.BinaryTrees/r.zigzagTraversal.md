@@ -1,3 +1,6 @@
+- we can solve this using level order traversal
+- on every level we can use a flag revese the order
+
 ```ts
 import { BT } from "./2.inorder";
 
