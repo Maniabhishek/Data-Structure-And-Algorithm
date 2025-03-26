@@ -1,4 +1,6 @@
 ### Bottom View Of binary tree
+
+- this is similar to the top view where we were using vertical line approach , in this case only one change where we will always update the map on each traversal, so it will eventually end up updating the bottom view
 ```ts
 import { BT } from "./2.inorder";
 
