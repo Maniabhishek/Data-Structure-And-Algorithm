@@ -1,3 +1,6 @@
+-  to solve this problem left binary tree and right binary when mirrored should overlap , left will become right and right will become right
+-  the solution is simple if we take left tree and right tree , and check opposite node on every traversal on both side then it should be equal , at any time value doesn't match we should return false 
+
 ```ts
 import { BT } from "./2.inorder";
 
