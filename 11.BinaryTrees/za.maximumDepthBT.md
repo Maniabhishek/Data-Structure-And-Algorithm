@@ -1,3 +1,5 @@
+- to solve this problem first check the notes try to solve the same , then will be able to code by yourself
+
 ```ts
 import { BT } from "./2.inorder";
 
