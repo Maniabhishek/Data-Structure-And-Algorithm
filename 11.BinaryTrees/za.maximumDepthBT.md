@@ -1,5 +1,10 @@
 - to solve this problem first check the notes try to solve the same , then will be able to code by yourself
 
+![image](https://github.com/user-attachments/assets/23aac887-63bb-42d2-acb9-f8242ac4926d)
+
+
+![image](https://github.com/user-attachments/assets/7acb18c4-aa83-437e-8a94-88065e477280)
+
 ```ts
 import { BT } from "./2.inorder";
 
