@@ -1,3 +1,5 @@
+- time to burn binary tree if lets say node 1 is connected to 2 and 3 then 2 and 3 will be burned at the same time , similarly connected node to 2 and 3 will burn at same time 
+
 ```ts
 import { BT } from "./2.inorder";
 
