@@ -80,6 +80,30 @@ function findMedianSpaceOptimized(arr1: number[], arr2: number[]){
         }
     }
 
+    if(el1 === -1 || el2 === -1){
+        while(i < arr1.length){
+            indexCount++
+            if(indexCount === el1Idx){
+                el1 = arr1[i]
+            }
+            if(indexCount === el2Idx){
+                el2 = arr1[i]
+            }
+            i++
+        }
+        
+        while(j < arr2.length){
+            indexCount++
+            if(indexCount === el1Idx){
+                el1 = arr2[j]
+            }
+            if(indexCount === el2Idx){
+                el2 = arr2[j]
+            }
+            j++
+        }
+    }
+
     if((arr1.length + arr2.length)%2 === 0){
         return (el1 + el2)/2
     }
