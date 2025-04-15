@@ -9,7 +9,7 @@
 - so based on missing count we can eliminate left and right half
 - if missing count is less than k , then obviously we need to move right 
 - what if equal , if equal which mean going right will only increase the missing count , left is what we need to move for both greater than or equal to case
-
+```ts
 function findKthMissingInUnSortedArray(arr: number[], k: number){
     arr = [...new Set(arr)].sort((a,b)=> a-b)
 
@@ -34,3 +34,4 @@ export function CallfindKthMissingInUnSortedArray(){
     let arr = [1,2,3,5,7,8]
     console.log(findKthMissingInUnSortedArray(arr,3))
 }
+```
