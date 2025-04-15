@@ -21,7 +21,7 @@
 - All the leaf nodes are at same level
 
 #### Balanced BT
-- Height of tree at max log(N) (base 2)
+- A BST where the height difference between the left and right subtrees of any node is no more than 1. Height of tree at max log(N) (base 2)
 
 #### Degenerate Tree
 - Where all the node has only one child
