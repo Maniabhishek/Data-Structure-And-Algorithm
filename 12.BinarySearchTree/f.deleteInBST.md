@@ -1,3 +1,11 @@
+![image](https://github.com/user-attachments/assets/300bf2e6-87ad-4ab1-bef5-b036e9ab0c4f)
+
+![image](https://github.com/user-attachments/assets/b6adcc16-2b2b-4548-876a-58bb4ceb0573)
+
+![image](https://github.com/user-attachments/assets/8a5748d6-73fe-45b3-90fe-8310a09ea318)
+
+
+
 ```
 import { BT } from "../tree/2.inorder";
 
