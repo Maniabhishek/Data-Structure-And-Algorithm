@@ -4,8 +4,6 @@
 
 <img width=400 height=600 src="https://github.com/user-attachments/assets/8a5748d6-73fe-45b3-90fe-8310a09ea318">
 
-
-
 ```ts
 import { BT } from "../tree/2.inorder";
 
