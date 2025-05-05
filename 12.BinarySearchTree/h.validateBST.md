@@ -1,3 +1,6 @@
+
+- we need to validate if given bst is valid or not , this can be solved easily if we can find the range for each node 
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
