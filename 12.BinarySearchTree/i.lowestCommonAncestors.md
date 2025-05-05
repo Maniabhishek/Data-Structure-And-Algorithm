@@ -1,3 +1,7 @@
+- lowest common ancestors , it is the last common intersection of two nodes
+- the solution is quiet simple , when both values are on same side , then move that side , once we find both the value on different side of the node, return that node
+
+
 ```ts
 import { BT } from "../tree/2.inorder"
 
