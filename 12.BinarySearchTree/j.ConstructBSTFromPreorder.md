@@ -1,9 +1,9 @@
 - the idea is quiet simple as we know all element on the left is smaller than root and greater than root on the right 
 
-<img width=400 height=400 src="https://github.com/user-attachments/assets/0c0acedb-1004-4f51-a68e-15d3d75a005b">
+<img width=400 height=600 src="https://github.com/user-attachments/assets/0c0acedb-1004-4f51-a68e-15d3d75a005b">
 
 
-<img width=400 height=400 src="https://github.com/user-attachments/assets/0147f6ce-08b8-4989-b169-b02a71f6031f">
+<img width=400 height=600 src="https://github.com/user-attachments/assets/0147f6ce-08b8-4989-b169-b02a71f6031f">
 
 
 ```ts
