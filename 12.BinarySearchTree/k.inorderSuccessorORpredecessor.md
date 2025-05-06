@@ -1,3 +1,7 @@
+- To find the successor and predecessor of inorder , if there is tree with inorder value are 1,2,3,4,5,6,7,8,9
+- so successor of 7 is 8
+- the idea is simple if we have to find the successor of 7 then check which side of tree 7 lies if on right then successor is yet to come as it right , but if its on left then current root node can be successor 
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
