@@ -1,3 +1,5 @@
+- we need to find the largest BST in BT , if we go on traversing every node and check if it is a validBST or not , if valid then we can store the size of that BST 
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
