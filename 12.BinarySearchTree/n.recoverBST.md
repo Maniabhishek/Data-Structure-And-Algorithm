@@ -1,3 +1,5 @@
+-  in this problem we are given a BST which has two node place at wrong , if we swap those node the whole BST will become valid 
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
