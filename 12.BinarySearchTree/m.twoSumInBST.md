@@ -1,3 +1,11 @@
+- in a bst we need to find out sum of two numbers which can be equal to given numbers
+- if we are given an array which is sorted doing the same thing can be done simply using 2 pointer
+- so if do inorder traversal we will get all elements in sorted order and then we can do the above
+- but it will have time complexity of O(N) SC: O(N)
+- but to optimize this space complexity we can utilize the previous code of finding next and before
+- next element will be from starting of sorted BST and before will from the end of the sorted BST
+- and then we can use the same technique
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
@@ -67,7 +75,7 @@ function TwoNumberSum(root: BT, num: number){
 
     let nextEl = btItr.next()
     let beforeEl = btItr.before()
-    while(btItr.hasBefore() && btItr.hasNext()){
+    while(nextEl < beforeEl){
 
         if((nextEl + beforeEl) === num){
             console.log(nextEl, beforeEl)
