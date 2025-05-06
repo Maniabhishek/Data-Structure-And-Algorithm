@@ -4,7 +4,7 @@
 - but it will have time complexity of O(N) SC: O(N)
 - but to optimize this space complexity we can utilize the previous code of finding next and before
 - next element will be from starting of sorted BST and before will from the end of the sorted BST
-- and then we can use the same technique
+- and then we can use the same technique as we do in simple array
 
 ```ts
 import { BT } from "../tree/2.inorder";
