@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/9a0bc836-f46d-4faa-8fca-8bda10dbd706)
+
+![image](https://github.com/user-attachments/assets/a1dce1b1-ea63-4cc3-a27d-14e98f5e62c9)
+
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
