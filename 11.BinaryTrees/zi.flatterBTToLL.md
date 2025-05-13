@@ -1,3 +1,5 @@
+Problem Statement: Given a Binary Tree, convert it to a Linked List where the linked list nodes follow the same order as the pre-order traversal of the binary tree.
+
 <img width=400 height=500 src="https://github.com/user-attachments/assets/08d7d532-041e-4253-9a34-b274a9e34dc8">
 
 - using preorder in the above tree it will be 1,2,3,4,5,6,7, so inorder to convert bt to LL, we will start connecting in reverse manner
