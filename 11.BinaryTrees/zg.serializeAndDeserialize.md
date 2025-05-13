@@ -1,3 +1,5 @@
+> Problem Statement: Given a Binary Tree, design an algorithm to serialise and deserialise it. There is no restriction on how the serialisation and deserialization takes place. But it needs to be ensured that the serialised binary tree can be deserialized to the original tree structure. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted (for example, across a computer network) and reconstructed later. The opposite operation, that is, extracting a data structure from stored information, is deserialization.
+
 <img width=400 height=500 src="https://github.com/user-attachments/assets/fe0b4be6-007e-4582-aa3c-29202efd8116">
 
 <img width=400 height=500 src="https://github.com/user-attachments/assets/56430b05-56fd-4696-92af-506145dddeea">
