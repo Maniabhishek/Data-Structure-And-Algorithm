@@ -32,3 +32,28 @@ function f(n, arr){
 >> - but there can be situation of collision lets we have 39 as well , then 39 will also sit at 9th index where 19 was , now this is a problem but this will be solved using linked list
 >> - and will be stored in sorted order and this can be done in various way using binary search and many other ways
 >> - hence in such worst cases it can be O(N)
+
+
+### Ordered Map
+- Implementation: Typically a Red-Black Tree (self-balancing BST).
+- Order: Maintains sorted order by key.
+> Time Complexities:
+> Operation	and Time Complexity
+> - Insert	O(log n)
+> - Delete	O(log n)
+> - Search	O(log n)
+> - Begin/End (min/max)	O(log n)
+
+
+### Unordered Map
+- Implementation: Hash Table
+- Order: No order (keys appear in arbitrary order).
+
+### When to Use What?
+#### Use unordered_map when:
+- You don’t need order.
+- You want fast average-time performance (e.g., frequency counts, lookup tables).
+#### Use map when:
+- You need sorted order, range queries, or upper_bound/lower_bound.
+- Deterministic iteration order matters.
+
