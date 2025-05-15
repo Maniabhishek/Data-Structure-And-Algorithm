@@ -29,7 +29,7 @@ function IntersectionOptimal(arr1: number[], arr2: number[]){
     let j = 0;
 
     const newArr = []
-    while(i < arr1.length && j < arr1.length){
+    while(i < arr1.length && j < arr2.length){
         if(arr1[i] === arr2[j]){
             newArr.push(arr1[i])
             i++
