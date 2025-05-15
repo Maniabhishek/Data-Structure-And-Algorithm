@@ -1,6 +1,6 @@
 ```ts
 // rotate array by k times to the left
-// so store all the elements that needs to be rotated let's say [1,2,3,4] if k is 2 then sore 1,2 is seperate array
+// so store all the elements that needs to be rotated let's say [1,2,3,4] if k is 2 then sore 1,2 in seperate array
 // once we have stored then we can start storing elements equal or after kth index from 0th index 
 // now store temp array 
 // TC: O(k) + O(N) + O(K) and SC: O(k)
