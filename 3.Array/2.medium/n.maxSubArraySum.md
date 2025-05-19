@@ -11,7 +11,34 @@ Output: 1
 Explanation: Array has only one element and which is giving positive sum of 1. 
 
 - the problem states that we need to find the maximum subarray sum for an array , now array can contain -ve elements if sum is less than 0 then simply return 0
-- to solve this problem , naive approach will be through traversing twice which will have O(N^2) time complexity and SC O(1)
+- to solve this problem , naive approach will be through traversing twice which will have O(N^3) time complexity and SC O(1)
+```js
+function maxSubarraySum(arr, n) {
+    let maxi = Number.MIN_SAFE_INTEGER; // maximum sum
+
+    for (let i = 0; i < n; i++) {
+        for (let j = i; j < n; j++) {
+            // subarray = arr[i.....j]
+            let sum = 0;
+
+            //add all the elements of subarray:
+            for (let k = i; k <= j; k++) {
+                sum += arr[k];
+            }
+
+            maxi = Math.max(maxi, sum);
+        }
+    }
+
+    return maxi;
+}
+
+const arr = [ -2, 1, -3, 4, -1, 2, 1, -5, 4];
+const n = arr.length;
+const maxSum = maxSubarraySum(arr, n);
+console.log(`The maximum subarray sum is: ${maxSum}`);
+
+```
 - to improve this algorithm we can use kadane's algorithm
 - Kadane's Algorithm
 - we take sum and max initialised with 0 and -Infinity
