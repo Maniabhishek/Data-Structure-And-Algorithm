@@ -1,3 +1,5 @@
+> Given an array of integers and an integer k, return the total number of subarrays whose sum equals k. A subarray is a contiguous non-empty sequence of elements within an array.
+
 - this is simlar to the problem k.longestSubArray approach , only difference is , we are trying find the total count of subarray
 - in this case we are taking a map with count as value amd sum as key
 ```ts
