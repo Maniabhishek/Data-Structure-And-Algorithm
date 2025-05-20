@@ -43,7 +43,7 @@ function markCols(col: number, arr: number[][]){
 }
 
 // better approach we will take a column array and row array , now traverse through the matrix whenever 0 is encountered we will mark that row array and column array as 0
-// now again traverse throught the array, if either row or col has zero mark it as 0
+// now again traverse through the array, if either row or col has zero mark it as 0
 
 function setZeroes_Better(arr: number[][]){
     let n = arr.length
