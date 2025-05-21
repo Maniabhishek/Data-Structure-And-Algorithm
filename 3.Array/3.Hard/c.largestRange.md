@@ -1,4 +1,4 @@
-/*
+
 Largest length:
   
   Write a function that takes in an array of integers and returns an array of
@@ -18,8 +18,10 @@ represent the range of {2, 3, 4, 5, 6}, which
   sample output:
   [0, 7]
 time coplexity: O(n) space complexity: O(n)
-*/
 
+> - another solution r.longestConsecutiveSequence
+
+```
 export function largestRange(array: number[]):[number, number]{
   let largestRange:[number, number] = [-1, -1]
   let largestLength = 0
@@ -52,3 +54,4 @@ export function largestRange(array: number[]):[number, number]{
   }
   return largestRange
 }
+```
