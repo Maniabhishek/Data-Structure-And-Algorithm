@@ -32,48 +32,48 @@ function merge2Sorted_Optimal(arr1: number[], arr2: number[]) {
 - we will take length of both the arrays and find the gap by dividing by 2 until gap is 1
 - place first pointer on 0 on left array ,and 2nd pointer will be at x gap distance
 - then keep swapping left and right if left is greater than right element
-```ts
-export function merge2SortedArray_Optimal2(arr1: number[], arr2: number[]){
-    let n = arr1.length
-    let m = arr2.length
-    let gap = n+m
-    let totalLen = n + m
-    while(gap > 0){
-        gap = Math.ceil(gap/2)
-        console.log(gap)
-        let left = 0
-        let right = left + gap
-        while(right < totalLen){
-            // there will be three scenarios left and right can be either side left on left array and right on right array
-            // 2nd will be left start on the right side
-            // 3rd will be both the pointer is on left array
-            if(left < n && right >= n){
-                swapIfGreater(arr1, arr2, left, right - n)
-            }else if(left >= n){
-                swapIfGreater(arr2,arr2, left-n, right - n)
-            }else {
-                swapIfGreater(arr1, arr1, left, right)
-            }
-            left++
-            right++
-        }
-        console.log(arr1,arr2)
-    }
-    console.log(arr1, arr2)
+```js
+function swapIfGreater(arr1, arr2, ind1, ind2) {
+  if (arr1[ind1] > arr2[ind2]) {
+    [arr1[ind1], arr2[ind2]] = [arr2[ind2], arr1[ind1]];
+  }
 }
 
-function swapIfGreater(arr1: number[], arr2: number[], left: number, right: number){
-    if(arr1[left] > arr2[right]){
-        let temp = arr1[left]
-        arr1[left] = arr2[right]
-        arr2[right] = temp
+function merge(arr1, arr2, n, m) {
+  const len = n + m;
+  let gap = Math.ceil(len / 2);
+
+  while (gap > 0) {
+    let left = 0;
+    let right = left + gap;
+
+    while (right < len) {
+      if (left < n && right >= n) {
+        swapIfGreater(arr1, arr2, left, right - n);
+      } else if (left >= n) {
+        swapIfGreater(arr2, arr2, left - n, right - n);
+      } else {
+        swapIfGreater(arr1, arr1, left, right);
+      }
+      left++, right++;
     }
+
+    if (gap == 1) break;
+
+    gap = Math.ceil(gap / 2);
+  }
 }
 
-export function Call_merge2Sorted(){
-    let arr1 = [1,3,5,7]
-    let arr2 = [0,2,4,6,8,9]
-    merge2SortedArray_Optimal2(arr1, arr2)
-}
+const arr1 = [1, 4, 8, 10];
+const arr2 = [2, 3, 9];
+const n = 4, m = 3;
+
+merge(arr1, arr2, n, m);
+
+console.log("The merged arrays are:");
+console.log(`arr1[] = ${arr1.join(" ")}`);
+console.log(`arr2[] = ${arr2.join(" ")}`);
+
+
 
 ```
