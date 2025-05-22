@@ -38,11 +38,11 @@ export function merge2SortedArray_Optimal2(arr1: number[], arr2: number[]){
     let m = arr2.length
     let gap = n+m
     let totalLen = n + m
-    while(gap > 1){
+    while(gap > 0){
         gap = Math.ceil(gap/2)
         console.log(gap)
         let left = 0
-        let right = 0 + gap
+        let right = left + gap
         while(right < totalLen){
             // there will be three scenarios left and right can be either side left on left array and right on right array
             // 2nd will be left start on the right side
