@@ -1,3 +1,5 @@
+- you will be given an array [1,2,3,4,5] , and your task is to return linked list in such a manner that all odds are together folled by all evens s
+
 ```ts
 class LNode {
     data: number;
@@ -94,6 +96,6 @@ export function CallCombineOddEven(){
     console.log('print combined oddeven')
     head = convertA2LL(arr)
     head = CombineOddEven2(head)
-    traverse(head) // 1,5,4,3,2
+    traverse(head) // 1,3,5,2,4
 }
 ```
