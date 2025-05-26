@@ -2,6 +2,7 @@ import { convertA2LL, LNode } from "./6.oddEvenLLCombine";
 import { reverseLL } from "./9.reverseLL";
 
 // naive approach will be using a stack and and storing it while traversing , again traverse from the start but this time compare each node value with the popped up value from stack, at any point if it is not equal return false if traverse throughly return true 
+```
 function pallindrome(head: LNode){
     let temp = head 
     let arr = []
@@ -27,6 +28,8 @@ function pallindrome(head: LNode){
 // and then we can do the comparison
 // to get the middle of the node , just use tortoise and hare approach 
 // TC: O(3N/2) approx. 2N SC: O(1)
+
+```ts
 function pallindrom2(head: LNode){
 
     if(head == null || head.next == null) return true
