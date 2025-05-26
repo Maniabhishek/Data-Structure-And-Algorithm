@@ -1,4 +1,4 @@
-- you will be given a linked list 1->2->3->4->5 , and your task is to return linked list in such a manner that all odds are together follwed by all even node
+- you will be given a linked list 1->2->3->4->5 , and we need to combine odd nodes and then even nodes together, o/p of the given LL will be 1->3->5->4->5
 
 ```ts
 class LNode {
