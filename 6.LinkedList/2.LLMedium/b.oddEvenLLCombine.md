@@ -1,4 +1,4 @@
-- you will be given a linked list 1->2->3->4->5 , and your task is to return linked list in such a manner that all odds are together folled by all evens s
+- you will be given a linked list 1->2->3->4->5 , and your task is to return linked list in such a manner that all odds are together follwed by all evens s
 
 ```ts
 class LNode {
