@@ -2,7 +2,8 @@ import { convertA2LL, LNode } from "./6.oddEvenLLCombine";
 import { reverseLL } from "./9.reverseLL";
 
 // naive approach will be using a stack and and storing it while traversing , again traverse from the start but this time compare each node value with the popped up value from stack, at any point if it is not equal return false if traverse throughly return true 
-```
+
+```ts
 function pallindrome(head: LNode){
     let temp = head 
     let arr = []
@@ -19,7 +20,7 @@ function pallindrome(head: LNode){
 
     return true
 }
-
+```
 // 2nd approach can be if we compare last elemnt with first , 2nd last with 2 , 3rd last with 3rd and so on...
 // but how can we get the last 2nd last , 3rd last .. in the reverse order , since this is a singly LL
 // there can be a way if we rever the ll from the middle 
