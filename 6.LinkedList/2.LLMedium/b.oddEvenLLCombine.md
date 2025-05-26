@@ -92,6 +92,7 @@ export function CallCombineOddEven(){
     traverse(head) // 1,3,5,2,4
 
     console.log('print combined oddeven')
+    head = convertA2LL(arr)
     head = CombineOddEven2(head)
     traverse(head) // 1,5,4,3,2
 }
