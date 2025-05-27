@@ -25,7 +25,7 @@ function pallindrome(head: LNode){
 ```
 -  2nd approach can be if we compare last elemnt with first , 2nd last with 2 , 3rd last with 3rd and so on...
 - but how can we get the last 2nd last , 3rd last .. in the reverse order , since this is a singly LL
-- there can be a way if we rever the ll from the middle 
+- there can be a way if we reverse the ll from the middle 
 - if we have even ll then we will have two middle m1 and m2 so we need to reach to m1
 - and reverse the m1.next i.e., m2 
 - and then we can do the comparison
