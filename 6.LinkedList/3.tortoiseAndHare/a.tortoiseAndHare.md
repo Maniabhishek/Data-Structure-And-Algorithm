@@ -1,3 +1,4 @@
+- find the middle of the node
 
 ```ts
 import { convertA2LL, LNode } from "./6.oddEvenLLCombine";
