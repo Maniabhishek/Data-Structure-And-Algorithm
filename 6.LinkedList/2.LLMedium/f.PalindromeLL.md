@@ -1,9 +1,11 @@
+```ts
+
 import { convertA2LL, LNode } from "./6.oddEvenLLCombine";
 import { reverseLL } from "./9.reverseLL";
 
 // naive approach will be using a stack and and storing it while traversing , again traverse from the start but this time compare each node value with the popped up value from stack, at any point if it is not equal return false if traverse throughly return true 
 
-```ts
+
 function pallindrome(head: LNode){
     let temp = head 
     let arr = []
