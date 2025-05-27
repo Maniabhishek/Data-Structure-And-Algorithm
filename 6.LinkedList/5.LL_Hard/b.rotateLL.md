@@ -1,3 +1,8 @@
+- In this article, we will solve the problem: "Rotate a Linked List"
+- Problem Statement: Given the head of a linked list, rotate the list to the right by k places.
+Example 1:
+Input: head = [1,2,3,4,5]  k = 2  Output: head = [4,5,1,2,3]
+
 ```ts
 import { convertA2LL, LNode, traverse } from "./6.oddEvenLLCombine";
 
