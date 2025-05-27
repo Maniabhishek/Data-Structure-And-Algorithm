@@ -1,3 +1,5 @@
+- Problem Statement: Given the head of a singly linked list of `n` nodes and an integer `k`, where k is less than or equal to `n`. Your task is to reverse the order of each group of `k` consecutive nodes, if `n` is not divisible by `k`, then the last group of remaining nodes should remain unchanged.
+- LL: 1  2  3  4  5  6  7  8  9  10 , K = 3 o/p: 3,2,1,6,5,4,9,8,7,10
 ```ts
 import { convertA2LL, LNode, traverse } from "./6.oddEvenLLCombine";
 
