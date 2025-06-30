@@ -1,3 +1,5 @@
+- Problem Statement: Given an array where each element represents the maximum number of steps you can jump forward from that element, return true if we can reach the last index starting from the first index. Otherwise, return false.
+
 <img src="https://github.com/user-attachments/assets/321cc4c4-6c26-4c03-88f0-840686b8bdb5" width=400 >
 
 
