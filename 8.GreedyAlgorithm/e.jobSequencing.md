@@ -6,6 +6,15 @@
 - once we get the max deadline and create array of size maxdeadline + 1, to have the index of maxdeadline
 - initialize the array with -1 
 - now keep filling the jobs , while we have array left with -1
+
+Example:
+Input: N = 4, Jobs = {(1,4,20),(2,1,10),(3,1,40),(4,1,30)}
+
+Output: 2 60
+
+Explanation: The 3rd job with a deadline 1 is performed during the first unit of time .The 1st job is performed during the second unit of time as its deadline is 4.
+Profit = 40 + 20 = 60
+
 ```ts
 type job = {
     id: number;
