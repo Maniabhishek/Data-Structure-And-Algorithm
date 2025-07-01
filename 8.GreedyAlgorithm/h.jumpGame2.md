@@ -31,8 +31,8 @@ function JumpGame2RangeApproach(arr: number[]){
         for(let i = l; i <= r; i++){
             farthest = Math.max(farthest, i + arr[i])
         }
-        r = farthest
         l = r+1
+        r = farthest
         jump += 1
     }
 
