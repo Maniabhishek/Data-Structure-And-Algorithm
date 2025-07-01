@@ -10,9 +10,9 @@
 function minPlatform(arrival: number[], dep: number[]){
     arrival.sort()
     dep.sort()
-    let count = 0
-    let maxCount = 0
-    let i = 0
+    let count = 1
+    let maxCount = 1
+    let i = 1
     let j = 0
     while(i < arrival.length){
         if(arrival[i] <= dep[j]){
