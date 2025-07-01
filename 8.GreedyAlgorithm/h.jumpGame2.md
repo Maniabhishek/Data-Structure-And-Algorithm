@@ -27,8 +27,12 @@ function JumpGame2RangeApproach(arr: number[]){
     let r = 0;
     let jump = 0
     while(r < arr.length-1){
+        let farthest = 0
+        for(let i = l; i <= r; i++){
+            farthest = Math.max(farthest, i + arr[i])
+        }
+        r = farthest
         l = r+1
-        r = Math.max(arr[l] + l, arr[r] + r)
         jump += 1
     }
 
