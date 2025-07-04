@@ -92,7 +92,7 @@ function lastOccurrence(arr: number[], givenNum: number){
         let mid = Math.floor((low+high)/2)
         if(arr[mid] === givenNum){
             ans = mid
-            low = low+1
+            low = mid+1
         }else if(arr[mid] > givenNum){
             high = mid-1
         }else {
