@@ -1,7 +1,7 @@
 <img width=400 height=400 src="https://github.com/user-attachments/assets/3afcdb1e-0862-44af-bca6-d9b8327600a1">
 
 ```ts
-function kthElement(arr1: number[], arr2: number[], k: number){
+function FindkthElement(arr1: number[], arr2: number[], k: number){
     let n1 = arr1.length;
     let n2 = arr2.length
 
@@ -54,7 +54,7 @@ export function CallkthElement(){
 
     let k = 8
 
-    console.log(kthElement(arr1, arr2, k))
+    console.log(FindkthElement(arr1, arr2, k))
 }
 
 ```
