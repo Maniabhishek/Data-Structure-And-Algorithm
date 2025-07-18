@@ -11,7 +11,7 @@
 import { BT } from "../tree/2.inorder";
 
 function findHeightOfBinaryTree(root: BT){
-    if(root == null) return 0
+    if(root == null) return -1
 
     let left = findHeightOfBinaryTree(root.left)
     let right = findHeightOfBinaryTree(root.right)
@@ -37,7 +37,7 @@ export function callfindHeightOfBinaryTree(){
 function findHeightUsingLevelOrderTraversal(root: BT){
     const queue = [root]
 
-    let height = 0
+    let height = -1
     while(queue.length){
         let queueSize = queue.length
 
