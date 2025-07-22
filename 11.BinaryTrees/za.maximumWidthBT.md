@@ -1,3 +1,4 @@
+- Given a Binary Tree, return its maximum width. The maximum width of a Binary Tree is the maximum diameter among all its levels. The width or diameter of a level is the number of nodes between the leftmost and rightmost nodes.
 - to solve this problem first check the notes try to solve the same , then will be able to code by yourself
 
 <img width=400 src="https://github.com/user-attachments/assets/23aac887-63bb-42d2-acb9-f8242ac4926d">
