@@ -1,3 +1,7 @@
+- Problem Statement: Given a Binary Search Tree and a key, return the ceiling of the given key in the Binary Search Tree.
+- Ceiling of a value refers to the value of the smallest node in the Binary Search Tree that is greater than or equal to the given key.
+- If the ceiling node does not exist, return nullptr.
+
 ```ts
 import { BT } from "../tree/2.inorder";
 
