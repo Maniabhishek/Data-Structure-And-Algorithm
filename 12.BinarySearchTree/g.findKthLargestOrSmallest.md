@@ -10,13 +10,13 @@ function KthSmallest(root: BT, k: number){
         return
     }
 
-    KthLargestOrSmallest(root.left, k)
+    KthSmallest(root.left, k)
     cnt++
     if(cnt === k){
         ans = root
         return
     }
-    KthLargestOrSmallest(root.right, k)
+    KthSmallest(root.right, k)
 }
 
 
