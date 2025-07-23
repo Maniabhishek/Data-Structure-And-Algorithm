@@ -5,7 +5,7 @@
 - searching in BT will take O(N) where as in BST it will be log(N) as we know value smaller or greater will lie either left or right part of subtree
 
 > If you want subtree height differences to be O(log N), use self-balancing trees like:
->> AVL Tree
->> Red-Black Tree
->> Treaps
->> Splay Trees
+>>- AVL Tree
+>>- Red-Black Tree
+>>- Treaps
+>>- Splay Trees
