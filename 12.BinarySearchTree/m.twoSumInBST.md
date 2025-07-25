@@ -11,7 +11,7 @@
 <img src="https://github.com/user-attachments/assets/fbb94e5d-62d4-4309-93c5-09f873fd4863" width=400>
 
 
-![image](https://github.com/user-attachments/assets/2b689a4c-8756-4957-bd54-6cc1123aca6d)
+<img src="https://github.com/user-attachments/assets/2b689a4c-8756-4957-bd54-6cc1123aca6d" width=400>
 
 
 ```ts
