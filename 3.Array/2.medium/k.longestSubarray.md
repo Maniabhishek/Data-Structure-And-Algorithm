@@ -1,5 +1,5 @@
 ```ts
-// find lnegth of the longest subarray that equals given sum 
+// find length of the longest subarray that equals given sum 
 // example: [9,0,0,2,3,1,1,1,1,4,3,2] 8 is the answer
 // brute force way we will loop through first time and inside this we will start another pointer from next till the end of array, and keep check the length of subarray that sums to given number
 // which will have O(N2) time complexity
