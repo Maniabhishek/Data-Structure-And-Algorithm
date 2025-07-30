@@ -29,6 +29,35 @@ function longestSubarrayWithSumK(arr: number[], k: number){
 
 // lets try to improve the above solution by taking two pointers 
 // we take the sum and check whether the sum is greater the target, then we will keep moving the left pointer until sum is lesser than target now the moment sum is lesseer than or equal to target we stop , and if equal then update the maxLen, and we move right pointer and add sum and keep doing it until right exhaust the length value
+
+function longestSubarraySumLength(arr: number[], k: number){
+    let left = 0;
+    let right = 0;
+    let maxLen = 0;
+    let sum = 0;
+    while(right < arr.length){
+        while(right < arr.length && sum <= k){
+            sum += arr[right]
+            if(sum === k){
+                maxLen = Math.max(maxLen, right-left+1)
+            }
+            right++
+        }
+
+        while(left <= right && sum > k){
+            sum -= arr[left]
+            left++
+        }
+
+    }
+    return maxLen
+}
+
+export function CallLongestSubarrayLength(){
+    const arr = [9,0,0,2,3,1,1,1,1,4,3,2]
+    console.log(longestSubarraySumLength(arr, 9))
+}
+
 function longestSubArrayTwoPointer(arr: number[], k: number){
     let left = 0;
     let right = 0;
@@ -52,6 +81,8 @@ function longestSubArrayTwoPointer(arr: number[], k: number){
     }
     return maxLen
 }
+
+
 
 export function Call_longestSubArray(){
     const arr = [9,0,0,2,3,1,1,1,1,4,3,2]
