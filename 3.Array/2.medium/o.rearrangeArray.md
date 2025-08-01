@@ -1,6 +1,6 @@
 ```ts
 // the problem statement is to rearrange the array elements in such a way where positive and negative elments are stored alternatively
-// fist poitive then negative then positive then negative and so on....
+// fist positive then negative then positive then negative and so on....
 // the brute force way is to take two array of n/2 and store +ve and -ve elements 
 // now that we know positive elements will come at even position and -ve elements will be at odd positions
 // so now traverse half of time and keep placing +ve and -ve values at even and odd positions
