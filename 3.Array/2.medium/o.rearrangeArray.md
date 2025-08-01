@@ -30,3 +30,34 @@ export function Call_rearrangeArrayElements(){
     rearrangeArrayElements([1,2,3,-1,-2,-3])
 }
 ```
+-  with better time complexity
+```ts
+function rearrangePosNeg(arr: number[]){
+    let ei = 0;
+    let oi = 1;
+
+    while(ei < arr.length && oi < arr.length){
+        if(arr[ei] > 0 ){
+            ei += 2
+        }
+
+        if(arr[oi] < 0 ){
+            oi += 2
+        }
+
+        if(arr[ei] < 0 && arr[oi] > 0){
+            let temp = arr[ei]
+            arr[ei] = arr[oi]
+            arr[oi] = temp
+        }
+    }
+
+    return arr
+}
+
+export function RcallRearrangePosNeg(){
+    const arr = [1,2,3,-1,-2,-3,1]
+
+    console.log(rearrangePosNeg(arr))
+}
+```
