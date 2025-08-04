@@ -21,7 +21,7 @@ time coplexity: O(n) space complexity: O(n)
 
 > - another solution r.longestConsecutiveSequence
 
-```
+```ts
 export function largestRange(array: number[]):[number, number]{
   let largestRange:[number, number] = [-1, -1]
   let largestLength = 0
