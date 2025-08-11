@@ -12,7 +12,7 @@ function findDiameter(root: BT){
     let ltheight = findHeightOfBinaryTree(root.left)
     let rtheight = findHeightOfBinaryTree(root.right)
 
-    maxHeight = Math.max(maxHeight, ltheight+rtheight)
+    maxHeight = Math.max(maxHeight, 1+ ltheight+rtheight)
 
     findDiameter(root.left)
     findDiameter(root.right)
@@ -66,7 +66,7 @@ function findHeightWithDiameter(root: BT){
 
     let lh = findHeightWithDiameter(root.left)
     let rh = findHeightWithDiameter(root.right)
-    maxDiameter = Math.max(maxDiameter, lh+rh)
+    maxDiameter = Math.max(maxDiameter, 1+lh+rh)
     return 1+Math.max(lh,rh)
 }
 
