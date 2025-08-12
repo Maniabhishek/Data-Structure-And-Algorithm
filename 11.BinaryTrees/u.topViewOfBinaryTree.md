@@ -52,3 +52,36 @@ export function callTopView(){
 }
 
 ```
+- we can also solve this using other traversal , for example preorder traversal , below is the code
+```ts
+function topView(root: BT, idx: number, mp: Map<number, number>){
+    if(!root) return 
+
+    if(!mp.has(idx)) {
+        mp.set(idx, root.value)
+    }
+
+    topView(root.left, idx-1, mp)
+    topView(root.right, idx+1, mp)
+}
+
+export function CallTopViewR(){
+    let root = new BT(1);
+    root.left = new BT(2);
+    root.right = new BT(3);
+    root.left.left = new BT(4);
+    root.left.right = new BT(5);
+    root.right.left = new BT(6);
+    root.right.right = new BT(7);
+    const mp = new Map()
+    topView(root, 0, mp)
+    console.log(mp)
+
+    const mp1 = new Map([...mp.entries()].sort((a,b)=> a[0]-b[0]))
+
+    for(const [key, value] of mp1){
+        console.log(value)
+    }
+}
+```
+
