@@ -19,7 +19,7 @@ function buildTree(inorder: number[], postorder: number[]){
         hm.set(val, index);
     });
 
-    return buildTreeFromPostIn(inorder, 0, inorder.length-1, inorder, 0, postorder.length-1, hm)
+    return buildTreeFromPostIn(inorder, 0, inorder.length-1, postorder, 0, postorder.length-1, hm)
 }
 
 function buildTreeFromPostIn(inorder: number[], inStart: number, inEnd: number, postorder: number[], postStart: number, postEnd: number, hm: Map<number, number>){
