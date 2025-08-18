@@ -26,3 +26,26 @@ export function runLengthEncoding(string: string) {
   result += `${count}${string[i-1]}`
   return result;
 }
+
+function runLengthEncoding(str: string){
+    let prev = str[0]
+    let res = ""
+    let count = 1
+    for(let i = 1; i < str.length; i++){
+        if(str[i] === prev && count < 9) {
+            count++
+        }else {
+            res += count+prev
+            prev = str[i]
+            count = 1;
+        }
+    }
+    res += count+prev
+    return res
+}
+
+export function CallrunLengthEncoding(){
+    const s = "AAAAAAAAAAA"
+    console.log(runLengthEncoding(s))
+}
+
