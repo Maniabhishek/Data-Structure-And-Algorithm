@@ -1,7 +1,7 @@
 > - there is a frog on the 1st step of an N stairs long staircase. The frog wants to reach the Nth stair. HEIGHT[i] is the height of the [i + 1]th stair. If frog jumps from the ith jth stairs , the energy lost in the jump is given by |HEIGHT[i-1]-HEIGHT[j-1]|. Frog can jump either to (i+1)th stair or to (i+2)th stair. Your task is to find the minimum total energy used by the frog to reach from 1st stair to Nth stair
 
 - let's see an example:
-> - energy array [10, 20,30, 10] 10->20 and then 20 to 10 will give result as 20 (total energy lost)
+> - energy array [10, 20,30, 10] 10->20 and then 20 to 10 will result as 20 (total energy lost)
 
 <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/963bbfc0-64a2-47d8-b57f-0f1dab19e971" width=400 height=400>
 <img src="https://github.com/Maniabhishek/Data-Structure-And-Algorithm/assets/31520295/af986820-7229-4e43-8681-04166e9ec61e" width=400 height=400>
