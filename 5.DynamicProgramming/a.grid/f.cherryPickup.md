@@ -1,5 +1,5 @@
 > - alice and bob wants to collect as many chocolate as they want from 2d Matrix alice start from (0,0) and bob starts from (0,n-1)
-> - we need to help them so that they can collect maximum chocolates when they reach at the bottom row once they , when both reach at same point only one of them can take the chocolates, alice and bob can move 1 step below everytime , (i+1,j)(i+1,j-1)(i+1,j+1)
+> - we need to help them so that they can collect maximum chocolates when they reach at the bottom row, when both reach at same point only one of them can take the chocolates, alice and bob can move 1 step below everytime , (i+1,j)(i+1,j-1)(i+1,j+1)
 
 - so we need to find the maximum number of chocolates when both reach at the bottom , and we have got the fixed starting point ***so we will always start from 0th row and will go all the way to the bottom***
 - so what could be the approach, we have to find the maximum , and find all the possible way , so use recursion ,
