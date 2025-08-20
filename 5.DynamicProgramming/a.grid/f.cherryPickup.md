@@ -106,7 +106,7 @@ function cherryPickUpTabulation(arr: number[][], m: number, n: number){
                 for(let dj1 = -1; dj1 <= 1; dj1++){
                     for(let dj2 = -1; dj2 <= 1; dj2++){
                         let newMax = 0
-                        // if(dj1 === dj2){
+                        // if(j1 === j2){
                         //     if((j1 + dj1) >= 0 && (j1 + dj1) < n && (j2 + dj2) >= 0 && (j2 + dj2) < n){
                         //         newMax = arr[i][j1] + dp[i+1][j1 + dj1][j2+dj2]
                         //     }else {
@@ -121,7 +121,7 @@ function cherryPickUpTabulation(arr: number[][], m: number, n: number){
                         // }
 
                         // optimize the above code
-                        if(dj1 === dj2){
+                        if(j1 === j2){
                             newMax += arr[i][j1]
                         }else {
                             newMax += arr[i][j1] + arr[i][j2]
