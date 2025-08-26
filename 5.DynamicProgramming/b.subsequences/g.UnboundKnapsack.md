@@ -4,7 +4,7 @@
 - val:[5,6,10] and bag size of 10
 - so we need to maximize the value suc that we dont exceed the bag size limit
 
-```
+```ts
 //TC exponential, SC: O(targetWt)
 function UnboundKnapsack(weight: number[], val: number[], idx: number, targetWt: number){
     if(idx === 0){
