@@ -85,7 +85,7 @@ function NumberOfSubsetsTabulation(arr: number[], target: number){
 
             let take = 0
             if(t >= arr[i]){
-                take = dp[i-1][target - arr[i]]
+                take = dp[i-1][t - arr[i]]
             }
             dp[i][t] = take + not_take
         }
