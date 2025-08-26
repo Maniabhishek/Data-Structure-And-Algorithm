@@ -1,3 +1,6 @@
+- We are given an array Arr with N distinct coins and a target. We have an infinite supply of each coin denomination. We need to find the number of ways we sum up the coin values to give us the target.
+
+
 ```ts
 function minimumCoins(coins: number[], target: number, idx){
     if(idx === 0){
