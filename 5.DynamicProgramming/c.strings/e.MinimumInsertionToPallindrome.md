@@ -1,6 +1,6 @@
 ### Minimum insertion to make a string pallindrome , find the number of insertion
 - how can we make a string pallindrome, if we reverse the same string attach to the end of original, then the whole string bounds to be the pallindrome
-- but we need to find the minimum insertion, let's see what is the part of string we cannot touch, it the longest pallindrome, and how can we find it we already saw that in the   previous function, which gave the longest common subsequence, so if we have a string and we need to find the longest pallindrome subsequence then , we can just reverse the give string and longest common subsequence will be longest pallindrome subsequence
+- but we need to find the minimum insertion, let's see what is the part of string we cannot touch, it is the longest pallindrome, and how can we find it we already saw that in the   previous function, which gave the longest common subsequence, so if we have a string and we need to find the longest pallindrome subsequence then , we can just reverse the give string and longest common subsequence will be longest pallindrome subsequence
 - once we got the longest pallindrome
 - keep the palindrome as it is , and remaining letter will be total number of insertion
 - for example abcaa , let's say aaa is longest pallindrome subsequence, then pending letter are bc, we will see one a will be inserted in 1st position, aabcaa, now if we insert b at 4th index then aabcbaa
