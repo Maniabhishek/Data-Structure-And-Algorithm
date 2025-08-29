@@ -1,7 +1,9 @@
 > - find the shortest common supersquence which will contain subsequence of both strings
 
 ### Explanation
+- A supersequence is defined as the string which contains both the strings S1 and S2 as subsequences.
 - lets see an example s1=brute s2=groot longest common subsequence is rt so the length will s1.length + s2.length - rt.length
+- shortest common supersequence = bgruoote
 - once we create the tabulation, we can easily find the sequence
 
 ```ts
