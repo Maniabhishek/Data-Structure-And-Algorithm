@@ -2,7 +2,7 @@
 - Deletion of a character.
 - Replacement of a character with another one.
 - Insertion of a character.
-####We have to return the minimum number of operations required to convert S1 to S2 as our answer.
+#### We have to return the minimum number of operations required to convert S1 to S2 as our answer.
 
 ### Edit Distance 
 - given string s1 = "horse" s2 = "ros"
