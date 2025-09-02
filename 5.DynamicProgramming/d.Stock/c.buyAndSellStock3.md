@@ -1,5 +1,8 @@
 - similar question but we are allowed to do maximum 2 transaction means , 2 times buy and sell
 
+- In order to sell the stock, we need to first buy it on the same or any previous day.
+We can’t buy a stock again after buying it once. In other words, we first buy a stock and then sell it. After selling we can buy and sell again. But we can’t sell before buying and can’t buy before selling any previously bought stock.
+
 ```ts
 // now this question is similar to the previous one , only difference is that we can only do 2 transaction
 function BuyAndSellStock3(prices: number[], idx: number, buy: number, cap: number){
