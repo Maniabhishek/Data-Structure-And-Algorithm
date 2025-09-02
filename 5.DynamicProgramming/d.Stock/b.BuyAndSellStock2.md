@@ -1,4 +1,4 @@
-### BuyAndSell Stock as many times you can
+### BuyAndSell Stock as many times you can (find max profit)
 - you can do as many transaction you want , but 1st you have buy and then sell , sell can not be performed before buy , buy then sell
 -  we can buy and sell, as many times i can , let's say if i buy 1st stock , and sell at some other day , but if we had bought the next day we could have got better profit , thus we can try all possible way , we can buy or not buy the 1st day stock
 - thus represent the problem in terms of index f(arr, i, buy), this means at i we can either buy or we dont look for other options
