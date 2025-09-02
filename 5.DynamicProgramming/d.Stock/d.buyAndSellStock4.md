@@ -1,5 +1,5 @@
 - here the difference is transaction can be done k times
-- this time we will use transaction number for counting the transaction , and when transaction is divisible by 2 then we can by or else sell and transaction count becomes 2 times k then we stop
+- this time we will use transaction number for counting the transaction , and when transaction is divisible by 2 then we can buy or else sell and transaction count becomes 2 times k then we stop
 - k is number of transaction allowed, 1 complete transaction means , sell and buy one after other
 - so last problem we solved for 2 transaction , so can we use the same previous solution by small modification yes we can
 - previously we were taking buy as indicator buy or sell, here in this case we can use tranactionNum as indication when it is even it means buy or when it is odd then it means sell
