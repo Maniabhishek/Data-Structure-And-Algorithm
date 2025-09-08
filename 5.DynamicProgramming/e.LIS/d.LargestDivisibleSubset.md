@@ -1,7 +1,7 @@
 - find the largest divisible subset
 - example arr = [1, 16, 7, 8, 4]
 - {1, 16, 4, 8} if we sort this out {1, 4, 8, 16}
-- 4 is divisible by 1 , and 8 is divisible by 4 if 8 is divisibly and 4 is divisible by 1 hence 8 is also divisible by 1, and same for 16 as well
+- 4 is divisible by 1 , and 8 is divisible by 4 if 8 is divisible and 4 is divisible by 1 hence 8 is also divisible by 1, and same for 16 as well
 
 
 ```ts
