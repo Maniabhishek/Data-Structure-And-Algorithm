@@ -26,7 +26,14 @@ function Number_LIS(arr: number[]){
         }
     }
 
-    console.log(count[maxIdx])
+    let numberOfLIS = 0
+    for(let i = 0; i < arr.length; i++){
+        if(dp[i] === max){
+            numberOfLIS += count[i]
+        }
+    }
+
+    console.log(numberOfLIS)
 }
 
 export function CallNumber_LIS(){
