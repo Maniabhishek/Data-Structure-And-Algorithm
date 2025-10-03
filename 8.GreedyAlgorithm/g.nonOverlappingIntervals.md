@@ -26,3 +26,29 @@ export function CallnonOverlappingIntervals(){
     console.log(nonOverlappingIntervals(intervals))
 }
 ```
+
+```ts
+function mergeOverlappingIntervals(intervals: interval[]){
+    intervals.sort((a,b)=> a[0]-b[0])
+
+    
+    const result: interval[] = [intervals[0]]
+    for(let i = 1; i < intervals.length; i++){
+        const last = result[result.length-1]
+        const current = intervals[i]
+        if(last[1] >= current[0]){
+            last[1] = Math.max(last[1], current[1])
+        }else {
+          result.push(intervals[i])  
+        }
+    }
+
+    console.log(result)
+    return result
+}
+
+export function CallnonOverlappingIntervals(){
+    const intervals: interval[] = [[1,2],[3,4],[0,5],[5,7],[5,9],[7,9]]
+    console.log(mergeOverlappingIntervals(intervals))
+}
+```
