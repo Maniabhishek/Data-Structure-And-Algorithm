@@ -2,3 +2,4 @@
 - [jobSequencing](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/8.GreedyAlgorithm/e.jobSequencing.md)
 - [jumpGame2](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/8.GreedyAlgorithm/h.jumpGame2.md)
 - [insertInterval](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/8.GreedyAlgorithm/i.insertInterval.md)
+- [validParenthesis](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/8.GreedyAlgorithm/k.validParenthesis.md)
