@@ -4,3 +4,4 @@
 4. [find nth root](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/m.findNthRootOfAnInteger.md)
 5. [minimum capacity to ship packages within d days](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/q.capacityToShipPackagesWithinDDays.md)
 6. [kth missing positive](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/r.KthMissingPositive.md)
+7. [allocate books](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/t.allocateBooks.md)
