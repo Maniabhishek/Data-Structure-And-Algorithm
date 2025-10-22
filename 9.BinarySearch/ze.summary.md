@@ -2,3 +2,4 @@
 2. [Search in Soerted Rotated array](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/g.searchInSortedRotatedArray2.md)
 3. [find single element](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/j.findSingleElement.md)
 4. [find nth root](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/m.findNthRootOfAnInteger.md)
+5. [minimum capacity to ship packages within d days](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/q.capacityToShipPackagesWithinDDays.md)
