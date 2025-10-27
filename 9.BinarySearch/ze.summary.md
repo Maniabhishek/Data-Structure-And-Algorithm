@@ -7,3 +7,4 @@
 7. [allocate books](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/t.allocateBooks.md)
 8. [minimise maximum distance between gas station](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/v.MinimiseMaximumDistanceBwGasStation.md)
 9. [find median of two sorted array](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/w.medianOfTwoSortedArray.md)
+10. [kth element from two sorted array](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/x.kthElementInTwoSortedArray.md)
