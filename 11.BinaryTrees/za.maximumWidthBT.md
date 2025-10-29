@@ -30,7 +30,7 @@ function maximumDepthOfBT(root: BT){
             }
         }
 
-        ans = Math.max(ans, maxIdx + 1)
+        ans = Math.max(ans, maxIdx - minIdx + 1)
     }
     return ans
 }
