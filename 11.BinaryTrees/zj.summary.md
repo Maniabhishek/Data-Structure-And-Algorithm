@@ -9,3 +9,4 @@
 9. [time to burn a tree](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/zd.burnBinaryTree.md)
 10. [count node in complete BT](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/ze.CountNodeInCompleteBT.md)
 11. [construct BT from postorder or preorder](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/zf.constructBTFromPostorderOrPreorder.md)
+12. [Faltten BT to LL](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/zi.flatterBTToLL.md)
