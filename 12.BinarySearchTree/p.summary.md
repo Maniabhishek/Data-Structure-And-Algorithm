@@ -4,3 +4,4 @@
 4. [validate BST](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/h.validateBST.md)
 5. [lowest common ancestor](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/i.lowestCommonAncestors.md)
 6. [create BST from preorder](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/j.ConstructBSTFromPreorder.md)
+7. [BST Iterator](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/l.binarySearchTreeIterator.md)
