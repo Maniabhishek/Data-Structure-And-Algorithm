@@ -39,6 +39,7 @@ function oneEdit2(stringOne: string, stringTwo: string){
     let madeEdit = false;
     const lengthOne = stringOne.length;
     const lengthTwo = stringTwo.length;
+    if(Math.abs(lengthOne-lengthTwo) > 1 ) return false;
     let indexOne = 0;
     let indexTwo = 0;
     while(indexOne < lengthOne && indexTwo < lengthTwo){
