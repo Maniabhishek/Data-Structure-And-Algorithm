@@ -29,3 +29,27 @@ function reverseDLL(head: DLNode){
     return last
 }
 ```
+
+- simplified logic
+```ts
+function reverseDLL2(head: DLNode){
+    let front = null
+    let back:DLNode = null
+
+    if(!head.next){
+        return head
+    }
+
+    while(head){
+        front = head.next
+        back = head.back
+
+        head.next = back
+        head.back = front
+
+        head = front
+    }
+
+    return back.back
+}
+```
