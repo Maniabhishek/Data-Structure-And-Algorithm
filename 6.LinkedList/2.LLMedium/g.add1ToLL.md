@@ -1,3 +1,8 @@
+- Input: 4->5->6 Output: 4->5->7
+    - Explanation: 456 + 1 = 457
+- Input: 9->9->9 Output: 1->0->0->0
+    - Explanation: 999 + 1 = 1000
+
 ```ts
 // add number 1 to LL which contains number at each of their node
 
