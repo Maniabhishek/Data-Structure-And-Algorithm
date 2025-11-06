@@ -2,4 +2,4 @@
 2. [delete nth node from last](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/6.LinkedList/2.LLMedium/d.deleteNthNodeFromLast.md)
 3. [pallindrom without space complexity](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/6.LinkedList/2.LLMedium/f.PalindromeLL.md)
 4. [find intersection in LL]()
-6. [find the starting node of the loop]
+6. [find the starting node of the loop](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/6.LinkedList/3.tortoiseAndHare/e.findTheStartingNodeOfLoop.md)
