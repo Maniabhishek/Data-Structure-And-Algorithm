@@ -4,3 +4,4 @@
 4. [find intersection in LL]()
 6. [find the starting node of the loop](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/6.LinkedList/3.tortoiseAndHare/e.findTheStartingNodeOfLoop.md)
 7. [k reverse singly linked list](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/6.LinkedList/5.LL_Hard/a.reverseNodesKGroupSizeOfLL.md)
+8. [flatten LL with child node](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/6.LinkedList/5.LL_Hard/d.flattenLL.md)
