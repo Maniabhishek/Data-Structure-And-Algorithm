@@ -1,7 +1,7 @@
 1. [longest substring without repeating characrter](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/c.longestSubstring.md)
 2. [maximum consecutive ones](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/d.maximumConsecutiveOnes.md)
 3. [longest repeating characters where you are given k , k letter can be changed](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/g.longestRepeatingCharacters.md)
-4. [number of substring](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/h.NumberOfSubstring.md)
+4. [We are given a string , we need to find the number of substring containing all three characters a, b, c](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/h.NumberOfSubstring.md)
 5. [Binary subarray with sum](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/i.binarySubarrayWithSum.md)
 6. [count subaarray with k distinct integers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/k.subarrayWithKDifferentIntegers.md)
 7. [minimum window substring](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/l.minimumWindowSubstring.md)
