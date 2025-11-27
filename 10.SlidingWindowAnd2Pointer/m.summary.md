@@ -3,5 +3,5 @@
 3. [longest repeating characters where you are given k , k letter can be changed](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/g.longestRepeatingCharacters.md)
 4. [We are given a string , we need to find the number of substring containing all three characters a, b, c](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/h.NumberOfSubstring.md)
 5. [Binary subarray with sum](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/i.binarySubarrayWithSum.md)
-6. [count subaarray with k distinct integers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/k.subarrayWithKDifferentIntegers.md)
+6. [you are given an array of integers , with k where k denote number of distinct integers in subarray, so our task is to find the total number of subarrays which have k distinct integers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/k.subarrayWithKDifferentIntegers.md)
 7. [minimum window substring](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/l.minimumWindowSubstring.md)
