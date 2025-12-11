@@ -4,7 +4,7 @@
 - sample input: xyz , 2 
 - sample output: zab
 
-```
+```ts
 function ceaserCipherEncryptor(str: string, key: number){
   const newCharArr: string[] = []
   const newKey: number = key%26
