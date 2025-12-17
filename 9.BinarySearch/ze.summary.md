@@ -9,4 +9,4 @@
 9. [find median of two sorted array](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/w.medianOfTwoSortedArray.md)
 10. [kth element from two sorted array](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/x.kthElementInTwoSortedArray.md)
 11. [find peak element in 2D sorted matrix](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/zb.findPeakElementIn2DMatrix.md)
-12. [find median in row and column wise sorted matrix]()
+12. [find median in row and column wise sorted matrix](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/9.BinarySearch/zc.MedianInRowWiseSortedMatrix.md)
