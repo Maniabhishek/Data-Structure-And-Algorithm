@@ -1,6 +1,6 @@
 - given a rating of each child based on that we need to distribute the candys
 - with two conditions first is each child must have at least one candy
-- and each child must get more than its neighbours
+- and each child with higher rating must get more than its neighbours
 - the first apporach will be by traversing the from left and keep comparing from the left element, if greater then , assign one more than previous otherwise 1
 - and then will do same operations while traversing from right
 
