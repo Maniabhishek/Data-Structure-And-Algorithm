@@ -13,7 +13,7 @@ function FindMaxForNinja(days: number, last: number, arr: number[][]){
         let max = 0;
         for(let i = 0; i < 3; i++){
             if(i !== last){
-                max = Math.max(arr[days][i])
+                max = Math.max(arr[days][i], max)
             }
         }
         return max
@@ -47,7 +47,7 @@ function FindMaxForNinjaMemoization(days: number, last: number, arr: number[][],
         let max = 0;
         for(let i = 0; i < 3; i++){
             if(i !== last){
-                max = Math.max(arr[days][i])
+                max = Math.max(arr[days][i], max)
             }
         }
         return max
