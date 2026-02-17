@@ -1,4 +1,4 @@
-> - given weight array, and value array , and bag with targetwight or maximum weight bag can take
+> - given weight array, and value array , and bag with targetweight or maximum weight bag can take
 > - so find the maximum value that one can get after filling the bag, each weight index corresponds to the value index
 
 - express the problem in terms of index and find all the variables or state that will change
