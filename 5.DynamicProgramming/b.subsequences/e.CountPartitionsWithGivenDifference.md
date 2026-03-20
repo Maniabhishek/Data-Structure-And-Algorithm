@@ -40,7 +40,11 @@ export function CallCountPartitions(){
     const res = CountPartitions(arr, 17, 3, 0, total)
     console.log(res)
 }
+```
+- in this below code if you see we are not immediately returning when target is 0 , we are going all the way to idx 0  why, consider an example [0,0,1,1,2,2,4]
+<img width="617" height="729" alt="image" src="https://github.com/user-attachments/assets/d041b41a-e575-473f-84e0-05093844428c" />
 
+```ts
 function CountPartitions2(arr: number[], idx: number, target: number, dp: number[][]){
     if(idx === 0){
         if(target === 0 && arr[0] === 0) return 2
