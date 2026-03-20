@@ -6,3 +6,4 @@
 5. [PartitionSetWithMinimumAbsoluteSumDiff](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/b.subsequences/c.partitionSetWithMinimumAbsoluteSumDiff.md)
 6. [knapSackProblem](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/b.subsequences/f.knapSackProblem.md)
 7. [UnboundKnapsack](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/b.subsequences/g.UnboundKnapsack.md)
+8. [RodCutting Maximize price](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/b.subsequences/h.rodCuttingProblem.md)
