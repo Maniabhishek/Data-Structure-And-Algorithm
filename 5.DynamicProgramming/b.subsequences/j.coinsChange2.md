@@ -14,7 +14,7 @@ function coinsChange(coins: number[], target: number, idx: number){
     const not_take = coinsChange(coins, target, idx-1)
     let take = 0
     if(target >= coins[idx]) {
-        take = 1 + coinsChange(coins, target - coins[idx], idx)
+        take = coinsChange(coins, target - coins[idx], idx)
     }
 
     return take + not_take
