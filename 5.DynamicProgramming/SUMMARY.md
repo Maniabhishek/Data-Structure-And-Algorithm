@@ -10,3 +10,4 @@
 9. [minimum coin change](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/b.subsequences/i.minimumCoins.md)
 10. [printLongestCommonSubsequences](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/b.printLongestCommonSubsequences.md)
 11. [longestCommonSubstring](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/c.longestCommonSubstring.md)
+12. [MinimumInsertionToPallindrome](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/e.MinimumInsertionToPallindrome.md)
