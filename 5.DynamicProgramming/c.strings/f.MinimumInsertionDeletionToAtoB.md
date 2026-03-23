@@ -7,4 +7,4 @@
 
 - so the entire question boils down to find the longest common subsequence
 
-[code](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/DynamicProgramming/c.strings/a.longestCommonSubsequences.md)
+[code](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/a.longestCommonSubsequences.md)
