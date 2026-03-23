@@ -12,4 +12,4 @@
 11. [longestCommonSubstring](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/c.longestCommonSubstring.md)
 12. [MinimumInsertionToPallindrome](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/e.MinimumInsertionToPallindrome.md)
 13. [shortestCommonSupersequence](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/g.shortestCommonSupersequence.md)
-14. 
+14. [distinctSubsequences](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/h.distinctSubsequences.md)
