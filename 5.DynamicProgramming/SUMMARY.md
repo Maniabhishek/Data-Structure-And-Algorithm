@@ -16,3 +16,4 @@
 15. [editDistance](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/i.editDistance.md)
 16. [wildcardMatching](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/c.strings/j.wildcardMatching.md)
 17. [BuyAndSell](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/d.Stock/a.BuyAndSell.md)
+18. [BuyAndSellStock2](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/d.Stock/b.BuyAndSellStock2.md)
