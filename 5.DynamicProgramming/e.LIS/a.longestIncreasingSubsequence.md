@@ -1,4 +1,12 @@
 ### Longest Increasing subsequence
+
+> Given an integer array nums, return the length of the longest strictly increasing subsequence. A subsequence is a sequence derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, [3, 6, 2, 7] is a subsequence of [0, 3, 1, 6, 2, 2, 7]. The task is to find the length of the longest subsequence in which every element is greater than the previous one.
+
+#### Example 1
+- Input: nums = [10, 9, 2, 5, 3, 7, 101, 18]
+- Output: 4
+- Explanation: The longest increasing subsequence is [2, 3, 7, 101], and its length is 4.
+
 - what does func(idx, prevIdx) or func(3, 0) signifies , it means find the LIS from index 3 where prev index is 0
 
 ```ts
