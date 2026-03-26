@@ -16,10 +16,10 @@ function longestIncreasingSubsequence(arr: number[]){
     let maxIndex = -1
     for(let i = 1; i < arr.length; i++){
         hash[i] = i
-        for(let j = 0; j < i; j++){
-            if(arr[j]< arr[i] && 1 + count[j] > count[i]){
-                count[i] = 1 + count[j]
-                hash[i] = j
+        for(let prev = 0; prev < i; prev++){
+            if(arr[prev]< arr[i] && 1 + count[prev] > count[i]){
+                count[i] = 1 + count[prev]
+                hash[i] = prev
             }
         }
 
