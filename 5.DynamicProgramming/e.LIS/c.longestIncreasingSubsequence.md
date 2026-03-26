@@ -4,6 +4,35 @@
 - create an array called subsequenceList, we start iterating from element first we see 10 no element in subsequenceList so simply push it, move to 9, compare it with last element from subsequenceList, we see 10 if current element 9 is greater than 10 simply push , if not then find element just greater than 9 which is 10 so replace it, so subsequenceList [9] , now move to 2, compare 2 with 9 smaller then replace 9 with 2 subsequenceList: [2], now move to 5 compare 5 with with 2 5 is bigger value then push subsequenceList: [2,5], move to 3 , 3>5 false so find just greater than 3 subsequenceList:[2,3] move to 7 , 7 > 3  true push 7 to subsequenceList: [2,3,7], move to 101, 101 greater than 7 hence push it to subsequenceList: [2,3,7,101] , move to 18, 18 not greater than 101 hence just greater than 18 in subsequenceList is 101 replace it with 18 subsequenceList: [2,3,7,18]
 
 ```ts
+function lengthOfLIS(nums: number[]) {
+    const tails = [];
+
+    for (let num of nums) {
+        let left = 0;
+        let right = tails.length;
+
+        // Binary search
+        while (left < right) {
+            let mid = Math.floor((left + right) / 2);
+            if (tails[mid]! < num) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+
+        // Replace or append
+        tails[left] = num;
+    }
+
+    return tails.length;
+}
+
+// Example
+console.log(lengthOfLIS([10,9,2,5,3,7,101,18])); // Output: 4
+```
+
+```ts
 
 function LISUsingBinarySearch(arr: number[]){
     // create an array to store elements if greater than previous or to find the just greater elements
