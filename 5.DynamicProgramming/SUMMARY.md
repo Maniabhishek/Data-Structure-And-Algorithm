@@ -21,3 +21,4 @@
 20. [longestIncresingSubsequence algorithmic approach using count and hash](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/e.LIS/b.longestIncresingSubsequence.md)
 21. [LIS using BS](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/e.LIS/c.longestIncreasingSubsequence.md)
 22. [LargestDivisibleSubset](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/e.LIS/d.LargestDivisibleSubset.md)
+23. [longestStringChain](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/5.DynamicProgramming/e.LIS/e.longestStringChain.md)
