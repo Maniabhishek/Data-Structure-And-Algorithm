@@ -52,3 +52,24 @@ export function Call_NumberofSubstringContainingAllCharacters2(){
 }
 
 ```
+
+-  another way to solve this
+```ts
+function FindCountStringContainsABC(str: string){
+    let l = 0;
+    let r = 0;
+    let total = 0
+    let hash: Record<string, number> = {a: 0, b: 0, c: 0}
+    const n = str.length
+    while(r < str.length) {
+        hash[str[r]!]! += 1
+        while(hash['a'] != 0 && hash['b'] != 0 &&  hash['c'] != 0){
+            total += n - r;
+            hash[str[l]!]! -= 1
+            l++
+        }
+        r++
+    }
+    return total
+}
+```
