@@ -1,6 +1,9 @@
 # Data-Structure-And-Algorithm
 Interview coding questions solved
 
+## Important questions
+- [longestSubstring](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/c.longestSubstring.md)
+
 ## Array:
 1. ValidateSubsequence
 2. Sorted Square Array
