@@ -4,7 +4,7 @@ Interview coding questions solved
 ## Important questions
 - [longestSubstring without repeating character](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/c.longestSubstring.md)
 - [NumberOfSubstring containing all three a, b, c](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/h.NumberOfSubstring.md)
-- [binary subarray with sum](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/i.binarySubarrayWithSum.md)
+- [you are given an array of integers , with k where k denote number of distinct integers in subarray, so our task is to find the total number of subarrays which have k distinct integers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/i.binarySubarrayWithSum.md)
 
 ## Array:
 1. ValidateSubsequence
