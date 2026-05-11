@@ -3,6 +3,7 @@ Interview coding questions solved
 
 ## Important questions
 - [longestSubstring without repeating character](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/c.longestSubstring.md)
+- [NumberOfSubstring containing a, b, c](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/h.NumberOfSubstring.md)
 
 ## Array:
 1. ValidateSubsequence
