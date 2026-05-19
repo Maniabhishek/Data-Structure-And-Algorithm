@@ -6,11 +6,13 @@ Interview coding questions solved
 - [NumberOfSubstring containing all three a, b, c](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/h.NumberOfSubstring.md)
 - [you are given an array of integers , with k where k denote number of distinct integers in subarray, so our task is to find the total number of subarrays which have k distinct integers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/k.subarrayWithKDifferentIntegers.md)
 
+##
 
 - [Diameter of BT](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/o.diameterOfBinaryTree.md)
 - [Print root to Node](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/y.printRootToNode.md)
 - [Lowest Commons Ancestor](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/z.lowestCommonAncestor.md)
 - [Children Sum Property](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/zb.childrenSumProperty.md)
+- [*Construct Unique BT from Postorder or Preorder*](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/zf.constructBTFromPostorderOrPreorder.md)
 
 ## Array:
 1. ValidateSubsequence
