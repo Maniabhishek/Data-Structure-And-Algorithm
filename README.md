@@ -7,7 +7,7 @@ Interview coding questions solved
 - [you are given an array of integers , with k where k denote number of distinct integers in subarray, so our task is to find the total number of subarrays which have k distinct integers](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/10.SlidingWindowAnd2Pointer/k.subarrayWithKDifferentIntegers.md)
 
 
-- [Diameter of BT] (https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/o.diameterOfBinaryTree.md)
+- [Diameter of BT](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/11.BinaryTrees/o.diameterOfBinaryTree.md)
 
 ## Array:
 1. ValidateSubsequence
