@@ -17,6 +17,10 @@ Interview coding questions solved
 
 #
 
+- [find kth largest or smallest](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/g.findKthLargestOrSmallest.md)
+- [create BST from preorder](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/j.ConstructBSTFromPreorder.md)
+- [recover bst where two number are swapped](https://github.com/Maniabhishek/Data-Structure-And-Algorithm/blob/main/12.BinarySearchTree/n.recoverBST.md)
+
 ## Array:
 1. ValidateSubsequence
 2. Sorted Square Array
