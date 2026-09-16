@@ -1,4 +1,4 @@
-### You are given a string and a target string , your task is to find a minimum length substring from given string which should contains all the character from target string if target string is abc then all three should be there , if abbc is target then b has to appear twice in substring , it can be in any order
+### You are given a string and a target string , your task is to find a minimum length substring from given string which should contain all the character from target string if target string is abc then all three should be there , if abbc is target then b has to appear twice in substring , it can be in any order
 
 -  example : string: "ddaaabbca" target: "abc"
 -  o/p : bca
