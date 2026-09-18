@@ -31,10 +31,8 @@ export function callfindDiameter(){
     const root = new BT(1)
 
     // root.right = new BT(2)
-
     // root.right.left = new BT(3)
     // root.right.right = new BT(4)
-
     // root.right.left.left = new BT(5)
     // root.right.right.right = new BT(6)
 
